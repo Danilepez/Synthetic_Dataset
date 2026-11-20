@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entrenamiento y checkpoints pesados (subir a Drive / HuggingFace Hub, no a Git)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+models/
+checkpoints/
+wandb/
+runs/
+
+# Archivos temporales y del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
+*.tmp
+*.log
+
+# Opcional: si no desean subir PDFs pesados (>20 MB) a GitHub, descomentar la siguiente línea:
+# docs/referencias/*.pdf
