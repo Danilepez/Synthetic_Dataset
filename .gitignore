@@ -33,3 +33,6 @@ desktop.ini
 
 # Opcional: si no desean subir PDFs pesados (>20 MB) a GitHub, descomentar la siguiente línea:
 # docs/referencias/*.pdf
+
+# Resultados locales del notebook (cada corrida publicada va a data/synthetic/<versión>/)
+salida/

@@ -4,6 +4,57 @@ Repositorio de investigación para evaluar si el entrenamiento previo con una le
 
 ---
 
+## Generador v1.1.2 (rama `dev/mazen`)
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Danilepez/Synthetic_Dataset/blob/dev/mazen/notebooks/chulupi_generador.ipynb)
+
+Notebook ejecutable que genera el dataset sintético a partir de la **especificación v1.1.2** y del léxico de producción (2.793 entradas). Antes de generar, comprueba que todo cumple la especificación (124 pruebas) y, después, revisa cada par con la lista V01–V31 (§13).
+
+### Cómo ejecutarlo en Google Colab
+
+1. Pulsa el botón **Abrir en Colab** de arriba.
+2. *Entorno de ejecución → Ejecutar todo*. El notebook descarga este repositorio (rama `dev/mazen`) y usa sus archivos: no hay que subir nada.
+3. Tarda unos minutos (en local, unos 3). Cada sección termina con "✔ … pruebas en verde" y la sección 11 con "Sin errores E".
+4. Los resultados quedan en `/content/Synthetic_Dataset/salida/pares/` (panel de archivos de Colab). Se borran al cerrar la sesión: descárgalos si los necesitas.
+
+Para solo estudiar el código y correr las pruebas sin generar, pon `GENERAR = False` en la celda de parámetros (0.2): tarda menos de un minuto.
+
+### Dónde está cada cosa
+
+| Ruta | Qué es |
+|---|---|
+| `notebooks/chulupi_generador.ipynb` | El generador. 12 secciones, cada una explicada en español: alfabeto, motor, léxico, raíces, español, oraciones, ideas, generación, verificación y uso. |
+| `docs/specification/chulupi_lang_spec.md` | Especificación **v1.1.2** (la que usa este notebook). Cada regla tiene un código `CH-xxx`. |
+| `docs/decisiones/PREGUNTAS.md` | Preguntas abiertas y decisiones tomadas: qué se interpretó, qué se corrigió y por qué. |
+| `tests/casos_prueba.json` | Los 40 casos de oración (C01–C40, CH-1201). |
+| `tests/regresion_ch710.json` | Los 102 casos de regresión con raíces reales (CH-710). |
+| `data/lexicon/lexico_sin_raices.csv` | Léxico de producción (rol 1): 2.793 entradas, sin raíces. |
+| `data/lexicon/REVISAR_lexico.md` | Qué revisar del léxico, por prioridad. |
+| `data/lexicon/palabras_reales.txt` | 43.437 palabras reales de aymara (filtro CH-306, modo "corpus"). |
+| `data/lexicon/conjugaciones.csv` | Conjugaciones del español (borrador automático, `revisado = n`: hay que revisarlas). |
+| `data/lexicon/lexico_con_raices_v1.0.csv` (+ `.json`) | El diccionario con sus raíces inventadas, fijo para la versión 1.0 del léxico (CH-309). |
+| `data/synthetic/v1.1.2_100k/` | El dataset generado: 100.523 pares verificados (ver su `README.md`). |
+| `src/chulupi/prototipo/` | Prototipo de referencia en Python que entregó la especificación (el notebook reutiliza su lógica). |
+
+### Orden recomendado para estudiarlo
+
+1. Este README y `data/synthetic/v1.1.2_100k/README.md` (qué se produce).
+2. `docs/specification/chulupi_lang_spec.md`, §0 (resumen) y los ejemplos de cada regla.
+3. El notebook, sección por sección. Cada sección empieza con "Qué hace", sus reglas `CH-xxx`, qué entra, qué sale y un ejemplo.
+4. `docs/decisiones/PREGUNTAS.md`, para entender las decisiones y lo que falta decidir.
+
+### Relación con la versión v1.1
+
+Los archivos de la v1.1 (`notebooks/generador_chulupi_colab.ipynb`, `docs/specification/artificial_lang_spec.md`, `data/lexicon/lexico_chulupi.csv` y `data/synthetic/v1.1_1k/`) siguen en el repositorio sin cambios. La v1.1.2 añade, entre otras cosas, el léxico de producción, el filtro "corpus", "el agua" (CH-1008) y las restricciones R21–R22; el detalle está en la cabecera de la especificación y en `PREGUNTAS.md`.
+
+### Pendiente antes de entrenar con estos datos
+
+- Revisar `data/lexicon/conjugaciones.csv` (2.490 filas con `revisado = n`).
+- Revisar las clases del léxico que dan combinaciones raras ("niños largos", "el pez toma cerveza"); ver `REVISAR_lexico.md`.
+- La especificación 1.1.3 todavía no se aplicó (`PREGUNTAS.md`, P-17).
+
+---
+
 ## Arquitectura del repositorio
 
 ```text
