@@ -1,0 +1,499 @@
+# Capa de realismo del léxico de producción (regla R23, rama dev/Camilo).
+#
+# Para qué sirve. Las clases de CH-406 son gruesas: "abstracto" reúne 776 nombres y "objeto"
+# mezcla un libro con la lluvia. Con solo las clases salen oraciones gramaticales pero absurdas
+# ("Dirán cuatro desarrollos", "Compré la lluvia", "Escribiremos esa muñeca"). Este archivo
+# afina, palabra por palabra, qué combinaciones se generan. No cambia ninguna raíz (CH-309):
+# solo decide qué ideas son válidas.
+#
+# Cómo se lee.
+# - Todas las palabras se escriben como en la columna es_m de lexico_sin_raices.csv.
+# - "@nombre" se refiere a un conjunto de la sección `conjuntos`.
+# - El notebook (sección 7.2) resuelve los nombres y se detiene si alguno no existe.
+# - Una regla que no aparece aquí no restringe nada: manda la clase de CH-406.
+
+version: 1
+
+# 1. Abstractos añadidos automáticamente (nota "AUTO" en el léxico). Se excluyen del muestreo
+#    salvo los de esta lista. Los demás abstractos que no queden en ningún conjunto usado por
+#    un verbo, por CAUSE o por "ser" también se excluyen (el notebook lo informa).
+abstractos_auto_conservados: [educación, comunicación, tecnología, edad, cantidad, inundación,
+  agricultura, turismo, lectura, conversación, discriminación, racismo, votación, entrenamiento,
+  declaración, presentación, conferencia, explicación, invitación, solicitud, petición,
+  contaminación, ganancia, alimentación, excursión, aventura, literatura, artesanía, ganadería,
+  emoción, sufrimiento, felicitación, advertencia, sugerencia, recomendación, nacimiento,
+  dificultad, escasez, desigualdad, festividad, homenaje, procesión]
+
+conjuntos:
+  # --- abstractos ---
+  dicho: [palabra, verdad, mentira, nombre, noticia, mensaje, secreto, respuesta, pregunta, opinión,
+          idea, broma, oración, rezo, saludo, consejo, promesa, razón, motivo, problema, decisión,
+          información, detalle, cuento, historia, precio, dirección, advertencia, sugerencia]
+  creible: [verdad, mentira, historia, cuento, noticia, idea, promesa, palabra, respuesta,
+            información, opinión, explicación, mensaje]
+  dato: [verdad, respuesta, nombre, secreto, noticia, historia, lección, canción, cuento, oración,
+         rezo, palabra, información, ley, precio, motivo, razón, dirección, edad]
+  disciplina: [lección, ciencia, arte, historia, música, canción, cultura, tradición, costumbre,
+               baile, deporte, ley, derecho, economía, política, religión, tecnología, agricultura,
+               literatura, artesanía, ganadería, oración, rezo, lectura, educación]
+  evento: [proyecto, actividad, trabajo, campaña, reunión, fiesta, ceremonia, celebración, encuentro,
+           viaje, visita, debate, marcha, protesta, examen, juego, baile, tarea, labor, misión,
+           estudio, investigación, carrera, diálogo, intercambio, reforma, construcción, cultivo,
+           venta, negocio, lucha, revolución, competencia, prueba, iniciativa, elección, guerra,
+           conversación, votación, entrenamiento, presentación, conferencia, excursión, aventura,
+           festividad, homenaje, procesión, canto]
+  valor: [derecho, libertad, justicia, igualdad, paz, salud, seguridad, protección, participación,
+          democracia, solidaridad, cooperación, bienestar, independencia, identidad, cultura,
+          tradición, costumbre, diversidad, calidad, desarrollo, economía, acceso, empleo, salario,
+          responsabilidad, reconocimiento, educación, comunicación, alimentación, vida]
+  obra: [proyecto, idea, iniciativa, propuesta, investigación, estudio, sistema, habilidad, economía,
+         actividad, trabajo, solución, construcción, producción, tecnología, servicio, reforma,
+         campaña, organización, transporte, negocio, turismo, agricultura, ganadería, educación,
+         salud, cultivo]
+  sentimiento: [miedo, alegría, tristeza, dolor, amor, odio, esperanza, felicidad, cansancio, hambre,
+                sed, frío, calor, paciencia, preocupación, pena, emoción, sufrimiento]
+  dinero: [dinero, deuda, precio, salario, gasto, premio, beneficio, ganancia]
+  mal: [problema, conflicto, crisis, corrupción, violencia, pobreza, amenaza, peligro, riesgo, daño,
+        ataque, emergencia, guerra, enfermedad, hambre, tragedia, discriminación, racismo,
+        contaminación, inundación, dificultad, escasez, desigualdad]
+  logro: [premio, victoria, carrera, juego, elección, competencia, debate, guerra, lucha, éxito,
+          logro, examen]
+  celebrable: [fiesta, ceremonia, celebración, victoria, éxito, logro, premio, matrimonio, tradición,
+               independencia, festividad, homenaje, encuentro]
+  sonido: [música, canción, sonido, voz, grito, mensaje, noticia, discurso, palabra, risa, llanto,
+           canto, silencio, cuento, historia, pregunta, respuesta, consejo, broma, saludo, rezo,
+           oración, conversación, conferencia]
+  documento: [noticia, mensaje, información, nombre, palabra, pregunta, respuesta, lección, historia,
+              cuento, canción, ley, propuesta, detalle, denuncia, demanda, discurso,
+              crítica, opinión, anuncio, declaración, solicitud, petición]
+  numero: [precio, gasto, distancia, salario, deuda, dinero, cantidad, edad, ganancia]
+  deseo: [ayuda, dinero, paz, libertad, trabajo, respuesta, permiso, información, solución, empleo,
+          oportunidad, justicia, salud, consejo, cambio, música, seguridad, protección, explicación]
+  amable: [paz, libertad, música, deporte, arte, juego, baile, fiesta, verdad, mentira, guerra,
+           violencia, silencio, tradición, cultura, vida, trabajo, frío, calor, religión, ciencia,
+           historia, canción, cuento, democracia, justicia, lectura]
+  extrañable: [fiesta, música, vida, costumbre, tradición, trabajo, canción, juego, baile, risa, voz,
+               alegría, paz, silencio, calor]
+  prohibible: [protesta, venta, juego, fiesta, marcha, violencia, reunión, corrupción, acceso,
+               visita, guerra, baile, música, discriminación, racismo, contaminación]
+  criticable: ["@mal", decisión, propuesta, ley, reforma, idea, opinión, política, gobierno, sistema,
+               proyecto, gestión]
+  proponible: [idea, propuesta, solución, proyecto, cambio, reforma, ley, iniciativa, reunión, juego,
+               viaje, intercambio, diálogo, debate]
+  aceptable: [propuesta, decisión, ayuda, invitación, respuesta, consejo, verdad, idea, opinión,
+              premio, trabajo, empleo, permiso, cambio, responsabilidad, desafío, castigo, explicación]
+  discutible: [propuesta, idea, problema, cuestión, asunto, decisión, ley, reforma, proyecto, opinión,
+               precio, salario, solución]
+  descubrible: [verdad, secreto, mentira, problema, solución, respuesta, idea, historia, nombre,
+                enfermedad]
+  vencible: [miedo, enfermedad, problema, crisis, pobreza, dolor, cansancio, hambre, frío,
+             competencia, carrera, juego, guerra, desafío, dificultad, sueño]
+  repetible: [palabra, pregunta, respuesta, mensaje, lección, canción, examen, nombre, historia,
+              cuento, broma, oración, rezo, saludo, consejo, promesa]
+  imaginable: [historia, cuento, idea, sueño, solución, respuesta, vida, viaje, fiesta, guerra, paz]
+  olvidable: ["@dato", promesa, deuda, tarea, problema, miedo, dolor]
+  pedible: [ayuda, dinero, permiso, consejo, información, respuesta, explicación, trabajo, empleo,
+            solución, protección, justicia]
+  ofrecible: [ayuda, trabajo, empleo, dinero, consejo, solución, oportunidad, servicio, premio,
+              protección, respuesta, información, música, fiesta, canción]
+  prometible: [ayuda, dinero, trabajo, empleo, premio, paz, respuesta, cambio, solución, protección,
+               fiesta, visita, justicia]
+  agradecible: [ayuda, consejo, visita, información, respuesta, saludo, invitación, servicio, trabajo,
+                esfuerzo, cuidado, donación]
+  avisable: [noticia, peligro, problema, cambio, decisión, visita, reunión, fiesta, riesgo, amenaza,
+             emergencia]
+  perdonable: [deuda, mentira, ataque, daño, broma]
+  preguntable: [nombre, precio, dirección, opinión, razón, motivo, información, edad]
+  recomendable: [música, canción, viaje, visita, juego, deporte, baile, trabajo, empleo, servicio,
+                 solución, cuento, historia, idea, estudio, lectura]
+  mostrable: [información, ejemplo, idea, nombre, dirección, música, arte, baile, habilidad, cultura,
+              tradición, trabajo, proyecto, prueba, respuesta, detalle, propuesta, canción]
+  presentable: [propuesta, proyecto, idea, demanda, denuncia, examen, ley, solución, canción, baile,
+                música, iniciativa, reforma, declaración, solicitud, petición]
+  firmable: [ley, propuesta, demanda, denuncia, permiso, declaración, solicitud, petición]
+  registrable: [nombre, información, propiedad, denuncia, venta, nacimiento, matrimonio, precio]
+  grabable: [música, canción, voz, mensaje, discurso, sonido, noticia, cuento, historia, canto,
+             conversación, conferencia]
+  respetable: ["@valor", ley, decisión, opinión, religión, orden, palabra, promesa]
+  apoyable: ["@obra", "@valor", protesta, lucha, campaña, decisión, propuesta, marcha]
+  exigible: ["@valor", respuesta, solución, ayuda, permiso, explicación, información]
+  ganable: ["@logro", dinero, salario, ganancia]
+  permitible: ["@evento", acceso, cambio]
+  aprobable: [ley, propuesta, proyecto, examen, reforma, decisión, iniciativa, solicitud, petición,
+              venta, precio]
+  incluible: [detalle, información, nombre, propuesta, idea, ejemplo, pregunta, respuesta, precio,
+              gasto, actividad, juego, música, canción]
+  considerable: [propuesta, idea, opinión, decisión, problema, cuestión, asunto, posibilidad, consejo,
+                 solución, oportunidad, riesgo, peligro]
+  divisible: ["@numero", trabajo, tarea, territorio, propiedad]
+  financiable: [proyecto, campaña, viaje, investigación, construcción, fiesta, estudio, iniciativa,
+                negocio, reforma, ceremonia]
+  contable: ["@creible", cuento, historia, secreto, broma, sueño, problema, dinero]
+  informable: [noticia, decisión, problema, cambio, precio, peligro, riesgo, emergencia, nombre,
+               motivo, razón]
+  comunicable: [noticia, decisión, mensaje, información, problema, cambio, propuesta, idea, opinión,
+                motivo, razón, declaración]
+  explicable: ["@disciplina", problema, idea, propuesta, decisión, razón, motivo, ley, respuesta,
+               pregunta, solución]
+  anunciable: [noticia, decisión, propuesta, fiesta, reunión, celebración, ceremonia, viaje, visita,
+               cambio, ley, reforma, campaña, elección, premio, victoria]
+  analizable: [problema, propuesta, idea, decisión, información, respuesta, pregunta, ley, reforma,
+               proyecto, opinión, economía, política, historia, cultura, crisis, conflicto]
+  investigable: ["@mal", historia, verdad, secreto, motivo, razón]
+  entendible: ["@dato", "@disciplina", problema, idea, propuesta, decisión, pregunta]
+  practicable: [deporte, baile, canto, música, lección, oración, rezo, tradición, costumbre, religión,
+                arte, habilidad, artesanía, lectura]
+
+  # --- objetos concretos ---
+  # Fenómenos naturales: no se compran, no se llevan ni se tienen. Solo aparecen donde una regla
+  # de `fenomenos` los permite (ver, encender, caer, brillar…) o como predicado de "Esa es una…".
+  fenomeno: [lluvia, nieve, sol, viento, estrella, luna, nube, rayo, trueno, granizo, arcoíris, sombra,
+             humo, fuego, luz]
+  sonoro: [radio, televisión, teléfono, celular, tambor, guitarra, charango, flauta, quena, zampoña,
+           sonaja, reloj]
+  instrumento_musical: [tambor, guitarra, charango, flauta, quena, zampoña, sonaja]
+  lectura_obj: [libro, carta, periódico, documento, revista, mapa, cuaderno, tarjeta, papel, ficha]
+  escritura_obj: [carta, libro, documento, tarjeta, revista]
+  publicable_obj: [libro, revista, periódico, foto, fotografía, imagen, dibujo, documento, carta, mapa]
+  imprimible_obj: [libro, carta, documento, foto, fotografía, imagen, mapa, revista, periódico,
+                   tarjeta]
+  copiable_obj: [libro, carta, documento, dibujo, mapa, imagen, foto, fotografía, cuadro]
+  borrable_obj: [dibujo, foto, fotografía, imagen, documento, mapa]
+  firmable_obj: [carta, documento, papel, tarjeta]
+  encendible_obj: [lámpara, foco, televisión, radio, computadora, celular, teléfono, motor, máquina, candelabro,
+                   carbón, leña]
+  tejido_obj: [cobija, frazada, sábana, toalla, cortina, alfombra, tapete, almohada, muñeco, peluche, colchón]
+  # --- instrumentos (COM) ---
+  cortante: [cuchillo, cuchilla, navaja, hacha, machete, tijera, hoz, sierra, serrucho]
+  cubierto: [cuchara, tenedor, cuchillo]
+  utensilio_cocina: [cuchara, cucharón, tenedor, cuchillo, batidora, mortero, rallador, espátula,
+                     paleta, batán]
+  recipiente_cocina: [olla, sartén, plato, taza, jarra, cuenco, tazón, vasija, tinaja, bandeja, fuente,
+                      cántaro, tetera]
+  herramienta_agro: [azadón, arado, pala, rastrillo, hoz, azada, rastra, yugo, regadera, manguera,
+                     carretilla, machete]
+  herramienta_tierra: [pala, azadón, azada, pico, arado, rastrillo]
+  herramienta_taller: [martillo, clavo, destornillador, taladro, cincel, sierra, serrucho, tenaza,
+                       alicate, tornillo, pinza, mazo, gancho, cuerda, soga]
+  herramienta_tejido: [aguja, hilo, huso, rueca, telar]
+  herramienta_escritura: [bolígrafo, lápiz, pluma]
+  herramienta_pintura: [pincel, brocha]
+  herramienta_limpieza: [escoba, trapo, cepillo]
+  herramienta_romper: [martillo, mazo, hacha, pico]
+  herramienta_abrir: [llave, cuchillo, navaja, destornillador]
+
+# 2. Objeto directo abstracto por verbo. Un verbo con "abstracto" en obj_clases que no esté aquí
+#    no lleva objeto abstracto.
+od_abstracto:
+  garantizar: ["@valor"]
+  querer: ["@deseo"]
+  necesitar: ["@deseo"]
+  realizar: ["@evento"]
+  organizar: ["@evento"]
+  planear: ["@evento"]
+  comenzar: ["@evento"]
+  empezar: ["@evento"]
+  terminar: ["@evento"]
+  continuar: ["@evento"]
+  promover: ["@valor", "@obra"]
+  impulsar: ["@obra", "@valor"]
+  fortalecer: ["@valor", "@obra"]
+  mejorar: ["@obra", "@valor"]
+  desarrollar: ["@obra"]
+  financiar: ["@financiable"]
+  incluir: ["@incluible"]
+  considerar: ["@considerable"]
+  creer: ["@creible"]
+  saber: ["@dato"]
+  recordar: ["@olvidable"]
+  olvidar: ["@olvidable"]
+  entender: ["@entendible"]
+  aprender: ["@disciplina"]
+  estudiar: ["@disciplina"]
+  practicar: ["@practicable"]
+  analizar: ["@analizable"]
+  investigar: ["@investigable"]
+  permitir: ["@permitible"]
+  prohibir: ["@prohibible"]
+  sentir: ["@sentimiento"]
+  celebrar: ["@celebrable"]
+  respetar: ["@respetable"]
+  apoyar: ["@apoyable"]
+  aprobar: ["@aprobable"]
+  ganar: ["@ganable"]
+  exigir: ["@exigible"]
+  reclamar: ["@exigible"]
+  resolver: ["@mal"]
+  denunciar: ["@mal"]
+  criticar: ["@criticable"]
+  rechazar: ["@criticable", "@aceptable"]
+  aceptar: ["@aceptable"]
+  proponer: ["@proponible"]
+  discutir: ["@discutible"]
+  descubrir: ["@descubrible"]
+  vencer: ["@vencible"]
+  imaginar: ["@imaginable"]
+  repetir: ["@repetible"]
+  amar: ["@amable"]
+  odiar: ["@amable"]
+  extrañar: ["@extrañable"]
+  dividir: ["@divisible"]
+  sumar: ["@numero"]
+  restar: ["@numero"]
+  multiplicar: ["@numero"]
+  calcular: ["@numero"]
+  leer: ["@documento"]
+  publicar: ["@documento"]
+  traducir: ["@documento"]
+  anotar: ["@documento"]
+  copiar: ["@documento"]
+  borrar: ["@documento"]
+  imprimir: ["@documento"]
+  firmar: ["@firmable"]
+  registrar: ["@registrable"]
+  grabar: ["@grabable"]
+  escuchar: ["@sonido"]
+  oír: ["@sonido"]
+  # verbos con destinatario (V_DITR)
+  decir: ["@dicho"]
+  contar: ["@contable"]
+  escribir: ["@documento"]
+  mostrar: ["@mostrable"]
+  informar: ["@informable"]
+  comunicar: ["@comunicable"]
+  explicar: ["@explicable"]
+  anunciar: ["@anunciable"]
+  presentar: ["@presentable"]
+  ofrecer: ["@ofrecible"]
+  pedir: ["@pedible"]
+  preguntar: ["@preguntable"]
+  enseñar: ["@disciplina"]
+  recomendar: ["@recomendable"]
+  prometer: ["@prometible"]
+  agradecer: ["@agradecible"]
+  avisar: ["@avisable"]
+  perdonar: ["@perdonable"]
+  pagar: [dinero, deuda, precio, salario, gasto, premio]
+  cobrar: [dinero, deuda, salario, precio]
+
+# 3. Nombres concretos por verbo y función. {verbo: {función: {clase: [nombres]}}}.
+#    Funciones: od (objeto directo) y suj (sujeto). Si una clase aparece, solo valen esos nombres
+#    de esa clase; las demás clases del verbo no cambian. Una lista vacía prohíbe la clase.
+concretos_por_verbo:
+  leer: {od: {objeto: ["@lectura_obj"]}}
+  escribir: {od: {objeto: ["@escritura_obj"]}}
+  publicar: {od: {objeto: ["@publicable_obj"]}}
+  traducir: {od: {objeto: [libro, carta, documento, revista, periódico]}}
+  firmar: {od: {objeto: ["@firmable_obj"]}}
+  registrar: {od: {objeto: [documento]}}
+  anotar: {od: {objeto: []}}
+  copiar: {od: {objeto: ["@copiable_obj"]}}
+  borrar: {od: {objeto: ["@borrable_obj"]}}
+  imprimir: {od: {objeto: ["@imprimible_obj"]}}
+  grabar: {od: {objeto: [piedra, madera, anillo, cuero, vidrio]}}
+  escuchar: {od: {objeto: ["@sonoro", trueno, lluvia, viento]}}
+  oír: {od: {objeto: ["@sonoro", trueno, lluvia, viento]}}
+  sonar: {suj: {objeto: ["@sonoro", trueno]}}
+  tocar: {od: {objeto: ["@instrumento_musical", mesa, piedra, cama, pelota]}}
+  encender: {od: {objeto: ["@encendible_obj"], herramienta: [vela, linterna, fósforo, encendedor], planta: [], comida: []}}
+  apagar: {od: {objeto: ["@encendible_obj"], herramienta: [vela, linterna], planta: [], comida: []}}
+  tejer: {od: {objeto: ["@tejido_obj"]}}
+  hilar: {od: {objeto: [madeja, ovillo]}}
+  bordar: {od: {objeto: ["@tejido_obj"]}}
+  coser: {od: {objeto: ["@tejido_obj"]}}
+  remendar: {od: {objeto: ["@tejido_obj"]}}
+
+# 4. Fenómenos (conjunto `fenomeno`): solo valen donde se permiten aquí.
+fenomenos:
+  od:
+    ver: "@fenomeno"
+    mirar: "@fenomeno"
+    observar: "@fenomeno"
+    contemplar: "@fenomeno"
+    admirar: [sol, luna, estrella, nube, arcoíris, nieve]
+    fotografiar: [sol, luna, estrella, nube, arcoíris, nieve, rayo, fuego]
+    esperar: [lluvia, nieve, sol, luna, viento]
+    buscar: [sombra, sol, luz, fuego]
+    dibujar: [sol, luna, estrella, nube, arcoíris, lluvia, fuego]
+    pintar: [sol, luna, estrella, nube, arcoíris]
+    encender: [fuego, luz]
+    apagar: [fuego, luz]
+    escuchar: [trueno, lluvia, viento]
+    oír: [trueno, lluvia, viento]
+  suj:
+    aparecer: [sol, luna, estrella, nube, arcoíris, luz, sombra, humo, fuego]
+    desaparecer: [sol, luna, estrella, nube, arcoíris, luz, sombra, humo, fuego, nieve]
+    brillar: [sol, luna, estrella, luz, fuego]
+    caer: [lluvia, nieve, granizo, rayo]
+    sonar: [trueno]
+    arder: [fuego]
+    derretirse: [nieve]
+
+# 5. Instrumentos (COM) por verbo o por marco ("marco:T_CORTAR"). Si un verbo o su marco aparece,
+#    solo valen esos nombres como instrumento. El verbo manda sobre el marco.
+instrumentos:
+  "marco:T_CORTAR": ["@cortante"]
+  "marco:T_COMER": ["@cubierto"]
+  "marco:T_COCINAR": ["@utensilio_cocina", "@recipiente_cocina"]
+  "marco:T_AGRO": ["@herramienta_agro"]
+  "marco:T_TIERRA": ["@herramienta_tierra"]
+  "marco:T_TEJER": ["@herramienta_tejido"]
+  "marco:T_ROMPER": ["@herramienta_romper"]
+  "marco:T_ABRIR": ["@herramienta_abrir"]
+  "marco:T_ARREGLAR": ["@herramienta_taller", "@herramienta_tejido"]
+  "marco:T_LIMPIAR": ["@herramienta_limpieza"]
+  "marco:T_HACER": ["@herramienta_taller", "@cortante"]
+  "marco:T_DOC": []
+  "marco:D_COMIDA": ["@recipiente_cocina"]
+  "marco:T_BEBER": [taza, vaso, copa, jarra, botella, tazón, cuenco, cántaro, jarro, termo]
+  cazar: [arco, flecha, lanza, honda, lazo, red, cuchillo]
+  pescar: [red, anzuelo, lanza]
+  domar: [lazo, soga, cuerda]
+  esquilar: [tijera, cuchillo, navaja]
+  trasquilar: [tijera, cuchillo, navaja]
+  pastear: [honda, bastón]
+  ensillar: []
+  ordeñar: []
+  herrar: [martillo, clavo]
+  vacunar: [jeringa]
+  pintar: ["@herramienta_pintura"]
+  dibujar: ["@herramienta_escritura", "@herramienta_pintura"]
+  decorar: ["@herramienta_pintura"]
+  adornar: []
+  tallar: [cuchillo, navaja, cincel, machete]
+  firmar: ["@herramienta_escritura"]
+  anotar: ["@herramienta_escritura"]
+  copiar: ["@herramienta_escritura"]
+  coser: [aguja, hilo]
+  bordar: [aguja, hilo]
+  remendar: [aguja, hilo]
+  ordenar: []
+  conectar: []
+  elaborar: []
+  modelar: []
+  diseñar: ["@herramienta_escritura"]
+  instalar: ["@herramienta_taller"]
+
+# 6. Verbos de movimiento: casos de lugar que admiten (ALL "a", ABL "de", UNTIL "hasta").
+#    Los que no aparecen admiten los tres.
+casos_movimiento:
+  asistir: [ALL]
+  acudir: [ALL]
+  dirigirse: [ALL, UNTIL]
+  acercarse: [ALL]
+  aproximarse: [ALL]
+  asomarse: [ALL]
+  meterse: [ALL]
+  entrar: [ALL]
+  subirse: [ALL]
+  alejarse: [ABL]
+  bajarse: [ABL]
+  zarpar: [ABL]
+  retirarse: [ABL]
+  fugarse: [ABL]
+  pasar: [ALL, UNTIL]
+  mudarse: [ALL, ABL]
+  emigrar: [ALL, ABL]
+  migrar: [ALL, ABL]
+  trasladarse: [ALL, ABL]
+  huir: [ALL, ABL]
+  escapar: [ALL, ABL]
+  caer: [ALL, ABL]
+  saltar: [ALL, ABL]
+  nadar: [ALL, UNTIL]
+  navegar: [ALL, UNTIL]
+  avanzar: [ALL, UNTIL]
+  subir: [ALL, UNTIL]
+  trepar: [ALL, UNTIL]
+  peregrinar: [ALL, UNTIL]
+  remar: [UNTIL]
+  gatear: [UNTIL]
+  pasear: [UNTIL]
+  desfilar: [UNTIL]
+  retroceder: [UNTIL]
+  refugiarse: []
+  aterrizar: []
+  desembarcar: []
+  embarcarse: []
+  adelantarse: []
+  circular: []
+  transitar: []
+  vagar: []
+
+# 7. Otras funciones de los abstractos.
+causa_abstracto: ["@mal", "@sentimiento", "@evento", "@dinero", noticia, mensaje, decisión, promesa]
+ser_demostrativo_abstracto: ["@evento", "@mal", "@logro", "@documento", "@dinero"]
+
+# 8. Adjetivos que modifican a un abstracto, según el conjunto del nombre. Un abstracto que no está
+#    en ninguno de estos conjuntos no lleva adjetivo.
+adjetivos_abstracto:
+  dicho: [importante, verdadero, falso, siguiente, breve, largo, corto, sencillo,
+          extraño, raro, bueno, malo, especial, urgente, personal, difícil, fácil, nuevo]
+  documento: [importante, verdadero, falso, siguiente, breve, largo, corto, oficial,
+              público, nuevo, digital, legal]
+  evento: [importante, largo, corto, breve, siguiente, especial, tradicional,
+           comunitario, familiar, cultural, nacional, internacional, local, público, oficial, difícil,
+           fácil, pacífico, violento, nuevo]
+  valor: [importante, necesario, verdadero, colectivo, individual, humano, social, cultural, público,
+          legal]
+  obra: [nuevo, importante, comunitario, educativo, productivo, social, económico, cultural, digital,
+         local, nacional, municipal, necesario, útil, difícil, sencillo, complicado]
+  sentimiento: [extraño, verdadero, raro]
+  disciplina: [importante, difícil, fácil, nuevo, tradicional, ancestral, útil, verdadero, sencillo,
+               complicado, cultural]
+  dinero: [necesario, justo, injusto, importante]
+  mal: [grave, urgente, importante, difícil, complicado, violento, económico, social, político,
+        extraño, verdadero, nuevo]
+  logro: [importante, verdadero, especial]
+
+# 9. "a" personal: con estos verbos, un objeto directo animal lleva "a" en español
+#    ("Cuido al perro", no "Cuido el perro"). Solo cambia el español.
+a_personal_animal: [seguir, ayudar, llamar, atender, invitar, nombrar, despertar, acompañar, guiar,
+  saludar, abrazar, alimentar, cuidar, bañar, curar, proteger, defender, criar, vacunar, domar,
+  buscar, encontrar, esperar, vigilar, admirar, reconocer]
+
+# 10. Lugares (ALL, ABL, LOC, UNTIL y el lugar de "estar en"). Partes de una construcción que no son
+#     un lugar donde se está o adonde se va.
+no_lugar: [pared, muro, columna, viga, techo, tejado, muralla, cerca, entrada, puerta, ventana, chimenea]
+
+# 11. Nombres únicos: sin plural, sin numeral y sin adjetivo ("los nortes", "el norte pequeño").
+nombres_unicos: [norte, sur, mundo, planeta, universo, cielo]
+
+# 12. Abstractos contables: los únicos abstractos que admiten plural o numeral. Los demás van en
+#     singular ("la violencia", no "las violencias").
+abstractos_contables: [pregunta, respuesta, idea, palabra, noticia, mensaje, cuento, historia, canción, ley,
+  propuesta, proyecto, fiesta, reunión, viaje, visita, problema, decisión, opinión, actividad, tarea, examen,
+  juego, campaña, ceremonia, celebración, encuentro, debate, marcha, protesta, carrera, competencia, prueba,
+  premio, deuda, precio, gasto, salario, secreto, broma, promesa, consejo, saludo, detalle, ejemplo, lección,
+  oración, demanda, denuncia, solicitud, petición, conferencia, excursión, aventura, festividad, homenaje,
+  procesión, sueño, nombre, derecho, tradición, costumbre, conflicto, crisis, amenaza, peligro, riesgo,
+  ataque, emergencia, guerra, enfermedad, victoria, logro, cambio, reforma, iniciativa, elección, votación,
+  presentación, sugerencia, advertencia, recomendación, invitación, declaración, discurso, crítica, anuncio,
+  trabajo, negocio, venta, estudio, investigación, servicio, sistema, habilidad, dificultad, duda, motivo, razón]
+
+# 13. Compañía (COM con persona o animal, P-13). Solo con estos verbos; la compañía animal, solo con los
+#     de `animal` y con sujeto persona. Fuera de la lista, COM solo puede ser instrumento.
+compania:
+  verbos: [ir, venir, llegar, salir, volver, regresar, retornar, viajar, caminar, correr, pasear, andar,
+    marchar, huir, escapar, emigrar, migrar, mudarse, trasladarse, nadar, navegar, peregrinar, bailar, cantar,
+    jugar, hablar, conversar, charlar, dialogar, trabajar, vivir, dormir, descansar, almorzar, cenar,
+    desayunar, rezar, cooperar, colaborar, competir, luchar, pelear, negociar, festejar, brindar, casarse,
+    reír, bromear, votar, protestar, participar, meditar]
+  animal: [ir, venir, llegar, salir, volver, regresar, viajar, caminar, correr, pasear, andar, jugar, dormir,
+    vivir, descansar, nadar, huir, escapar]
+
+# 14. Causa (CAUSE): solo con sujeto persona, y nunca con estos verbos. Una causa persona ("por el niño")
+#     solo con los verbos de `causa_persona_verbos`, y sin plural ni numeral.
+causa_sin_verbos: [nacer, crecer, envejecer, morir]
+# 15. Beneficiario (BEN, "para el niño"): solo con verbos de hacer, preparar o conseguir algo para alguien.
+ben_verbos: [comprar, hacer, cocinar, preparar, traer, buscar, construir, tejer, coser, bordar, escribir, dibujar,
+  pintar, conseguir, guardar, cultivar, cosechar, cazar, pescar, servir, recoger, elegir, escoger, arreglar,
+  reparar, componer, lavar, planchar, limpiar, crear, fabricar, elaborar, hornear, freír, asar, cocer, guisar,
+  calentar, adquirir, alquilar, producir, sembrar, plantar, recolectar, ordeñar, tallar,
+  diseñar, decorar, adornar, envolver, empacar, pelar, cortar, picar, rebanar, mezclar, batir, amasar, tostar]
+
+# 16. Adjetivos que no se generan (solo se dicen de mujeres y el generador no siempre sabe el género).
+adjetivos_excluidos: [embarazada]
+
+causa_persona_verbos: [llorar, sufrir, preocuparse, luchar, rezar, trabajar, pelear, gritar, enojarse, alegrarse,
+  emocionarse, asustarse, venir, volver, regresar, llegar, ir, quedarse, protestar, cantar, bailar]
