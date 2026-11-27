@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chulupi Lang · Dataset 300k</title>
+<meta name="description" content="Dataset sintético Chulupi Lang v1.1.2 de 301.787 pares, con la capa de realismo de la rama dev/Camilo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FBFBFA; --surface: #FFFFFF; --surface-2: #F7F6F3; --border: #EAEAEA;
+    --text: #2F3437; --text-strong: #111111; --muted: #787774; --bar: #2F3437;
+    --red-bg: #FDEBEC; --red: #9F2F2D; --blue-bg: #E1F3FE; --blue: #1F6C9F;
+    --green-bg: #EDF3EC; --green: #346538; --yellow-bg: #FBF3DB; --yellow: #956400;
+    --serif: 'Newsreader', 'Lyon Text', Georgia, serif;
+    --sans: 'Geist', 'SF Pro Display', 'Helvetica Neue', sans-serif;
+    --mono: 'Geist Mono', 'SF Mono', 'JetBrains Mono', monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #191918; --surface: #202020; --surface-2: #252524; --border: #343432;
+      --text: #D9D8D5; --text-strong: #F2F1EE; --muted: #9B9A97; --bar: #D9D8D5;
+      --red-bg: #3A2424; --red: #F0A9A7; --blue-bg: #1D3140; --blue: #9CCDF0;
+      --green-bg: #233024; --green: #A7CFA9; --yellow-bg: #3A3020; --yellow: #E8C77A;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+  body::before {
+    content: ""; position: fixed; inset: -20vmax auto auto -20vmax; width: 70vmax; height: 70vmax;
+    background: radial-gradient(circle, rgba(201, 170, 120, .07), transparent 60%); pointer-events: none; z-index: 0;
+  }
+  main { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 0 24px; }
+  @media (max-width: 600px) { main { padding: 0 16px; } }
+  .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1, h2 { font-family: var(--serif); font-weight: 400; color: var(--text-strong); letter-spacing: -0.03em; }
+  h1 { font-size: clamp(2.2rem, 5.2vw, 3.6rem); line-height: 1.08; margin: 18px 0 20px; max-width: 18ch; }
+  h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); line-height: 1.15; margin: 10px 0 14px; }
+  h3 { font: 600 15px/1.4 var(--sans); color: var(--text-strong); margin: 0 0 8px; }
+  p { margin: 0 0 14px; }
+  .lede { font-size: 1.125rem; max-width: 62ch; }
+  .muted { color: var(--muted); }
+  section { padding: 72px 0; border-top: 1px solid var(--border); }
+  header { padding: 72px 0 72px; }
+  @media (max-width: 600px) { header { padding: 40px 0 48px; } section { padding: 52px 0; } }
+
+  .preview {
+    display: flex; gap: 12px; align-items: flex-start; margin-top: 32px; padding: 14px 18px;
+    background: var(--yellow-bg); color: var(--yellow); border-radius: 8px; font-size: 14px; line-height: 1.5;
+  }
+  .preview strong { color: inherit; }
+  .est { background: var(--yellow-bg); color: var(--yellow); border-radius: 4px; padding: 0 4px; }
+  .num .est { padding: 0 6px; }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
+  .tag { display: inline-block; padding: 4px 10px; border-radius: 9999px; font: 500 11px/1.4 var(--sans); letter-spacing: .05em; text-transform: uppercase; background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); white-space: nowrap; }
+  .tag.green { background: var(--green-bg); color: var(--green); border-color: transparent; }
+  .tag.blue { background: var(--blue-bg); color: var(--blue); border-color: transparent; }
+  .tag.yellow { background: var(--yellow-bg); color: var(--yellow); border-color: transparent; }
+  .tag.red { background: var(--red-bg); color: var(--red); border-color: transparent; }
+
+  .bento { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-top: 28px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 26px; transition: box-shadow .2s ease; }
+  .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.04); }
+  .span-2 { grid-column: span 2; } .span-3 { grid-column: span 3; } .span-4 { grid-column: span 4; }
+  @media (max-width: 760px) { .bento { grid-template-columns: 1fr 1fr; } .span-2, .span-3, .span-4 { grid-column: span 1; } .wide-m { grid-column: span 2; } }
+  .num { font: 400 clamp(2rem, 4.2vw, 2.8rem)/1 var(--serif); color: var(--text-strong); letter-spacing: -0.03em; }
+  .num small { font-size: .45em; color: var(--muted); letter-spacing: 0; margin-left: 4px; }
+  .label { margin-top: 10px; font-size: 14px; color: var(--muted); line-height: 1.45; }
+
+  /* Comparación antes / después */
+  .versus { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+  @media (max-width: 760px) { .versus { grid-template-columns: 1fr; } }
+  .versus .card { padding: 24px; }
+  .versus ul { list-style: none; padding: 0; margin: 12px 0 0; }
+  .versus li { padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 15px; }
+  .versus li:last-child { border-bottom: 0; }
+  .versus li small { display: block; color: var(--muted); font-size: 13px; }
+  .big { font: 400 3rem/1 var(--serif); letter-spacing: -0.03em; color: var(--text-strong); }
+
+  .pair { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); overflow: hidden; margin-top: 18px; }
+  .pair-top { display: flex; align-items: center; gap: 6px; padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--surface-2); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--border); }
+  .pair-top span.t { margin-left: 8px; font: 500 12px/1 var(--mono); color: var(--muted); }
+  .row { display: grid; grid-template-columns: 112px 1fr; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--border); align-items: baseline; }
+  .row:last-child { border-bottom: 0; }
+  @media (max-width: 600px) { .row { grid-template-columns: 1fr; gap: 4px; padding: 12px 16px; } }
+  .row .k { font: 500 12px/1.4 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .row .v { font-size: 1.05rem; color: var(--text-strong); word-break: break-word; }
+  .gloss { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .gloss span { display: inline-flex; flex-direction: column; }
+  .gloss b { font: 500 .95rem/1.3 var(--mono); color: var(--text-strong); }
+  .gloss i { font: 400 11px/1.4 var(--mono); font-style: normal; color: var(--muted); letter-spacing: .02em; }
+
+  .table-wrap { overflow-x: auto; margin-top: 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  th { font: 500 11px/1.4 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--surface-2); }
+  td.n { font-family: var(--mono); font-size: 13.5px; white-space: nowrap; }
+  td.better { color: var(--green); }
+
+  .rules { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 18px; }
+  @media (max-width: 760px) { .rules { grid-template-columns: 1fr; } }
+  .rules .card { padding: 22px; }
+  .rules p { font-size: 14.5px; margin: 0; }
+  .rules .ex { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
+  .rules .ex s { color: var(--red); text-decoration-thickness: 1px; }
+  .rules .ex b { color: var(--green); font-weight: 500; }
+
+  .checks { list-style: none; padding: 0; margin: 18px 0 0; border-top: 1px solid var(--border); }
+  .checks li { display: grid; grid-template-columns: 1fr auto; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); align-items: center; }
+  .checks .what { font-size: 15px; } .checks .what small { display: block; color: var(--muted); font-size: 13.5px; }
+
+  ol.steps { padding-left: 20px; margin: 10px 0 0; } ol.steps li { margin-bottom: 8px; }
+  code { font-family: var(--mono); font-size: .88em; background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; }
+  footer { padding: 40px 0 72px; border-top: 1px solid var(--border); font-size: 13.5px; color: var(--muted); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .6s cubic-bezier(.16,1,.3,1), transform .6s cubic-bezier(.16,1,.3,1); transition-delay: calc(var(--i, 0) * 80ms); }
+    .reveal.in { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="eyebrow">Proyecto aymara → español · Chulupi Lang v1.1.2 · rama dev/Camilo</div>
+  <h1>301.787 pares, y más naturales</h1>
+  <p class="lede">El segundo dataset une el trabajo de las ramas de Daniel y de Mazen y añade una <strong>capa de realismo</strong>. Las oraciones siguen siendo gramaticales, pero ahora además tienen sentido: el modelo aprende la gramática del aymara sobre frases que una persona podría decir.</p>
+  <div class="meta">
+    <span class="tag blue">Especificación 1.1.2 + R23</span>
+    <span class="tag">Mismas raíces que el 100k</span>
+    <span class="tag green">0 errores en V01–V31</span>
+    <span class="tag">128 pruebas en verde</span>
+    <span class="tag">Semilla 20261126</span>
+  </div>
+</header>
+
+<section class="reveal">
+  <div class="eyebrow">En cifras</div>
+  <h2>Qué contiene</h2>
+  <div class="bento">
+    <div class="card span-3 wide-m reveal" style="--i:0"><div class="num">301.787</div><div class="label">pares tras quitar 58.799 duplicados. Se pidieron 360.000 ideas, porque al generar más crecen las repeticiones.</div></div>
+    <div class="card span-3 wide-m reveal" style="--i:1"><div class="num">11<small>%</small></div><div class="label">de oraciones con problemas en las muestras revisadas a mano. En el 100k eran el 35 %.</div></div>
+    <div class="card span-2 reveal" style="--i:2"><div class="num">2.213</div><div class="label">entradas del léxico en uso, de 2.793. Salen las que no tienen ningún uso natural.</div></div>
+    <div class="card span-2 reveal" style="--i:3"><div class="num">0</div><div class="label">conjugaciones con error. Se corrigieron 21 filas en 18 verbos.</div></div>
+    <div class="card span-2 wide-m reveal" style="--i:4"><div class="num">128</div><div class="label">pruebas antes de generar: las 124 de Mazen y 4 de la capa de realismo.</div></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Antes y después</div>
+  <h2>Del 35 % al 11 %</h2>
+  <p>Revisé a mano muestras aleatorias de cada versión y conté las oraciones absurdas o con errores. El criterio fue el mismo en las dos.</p>
+  <div class="versus">
+    <div class="card">
+      <span class="tag red">100k · dev/mazen</span>
+      <div class="big" style="margin-top:14px">35 %</div>
+      <ul>
+        <li>Dirán cuatro desarrollos en la casa.<small>Abstracto sin sentido como objeto</small></li>
+        <li>Los usuarios no querrán la vida.<small>Abstracto sin sentido como objeto</small></li>
+        <li>Construiremos los guisos con el lazo antiguo.<small>Objeto e instrumento que el verbo no admite</small></li>
+        <li>¿Somos periodista?<small>Concordancia de número</small></li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag green">300k · dev/Camilo</span>
+      <div class="big" style="margin-top:14px">≈11 %</div>
+      <ul>
+        <li>Nosotros habíamos pagado esta deuda.<small>El verbo elige sus objetos abstractos</small></li>
+        <li>Esta enferma le explica la artesanía al niño.<small>Abstracto que se puede explicar</small></li>
+        <li>Ayudamos al caballo.<small>"a" personal con animales</small></li>
+        <li>Nosotros somos bolivianos.<small>Concordancia de "nosotros" corregida</small></li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:12px">Las oraciones de la derecha salen de las muestras de control del nuevo generador. Es mi propia revisión, no la de un hablante nativo.</p>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Qué cambió</div>
+  <h2>La capa de realismo (R23)</h2>
+  <p>Las clases semánticas de la especificación eran demasiado gruesas: "abstracto" reunía 776 nombres y "objeto" mezclaba un libro con la lluvia. El archivo <code>data/lexicon/realismo.yaml</code> afina palabra por palabra qué combinaciones se generan. <strong>No cambia ninguna raíz</strong>, así que el vocabulario es el mismo del 100k.</p>
+  <div class="rules">
+    <div class="card"><h3>Objetos abstractos por verbo</h3><p>Cada verbo tiene la lista de abstractos que acepta.</p><div class="ex"><s>Digo la libertad.</s> → <b>Digo la verdad.</b></div></div>
+    <div class="card"><h3>Fenómenos naturales</h3><p>La lluvia o el sol solo se ven, se esperan o caen; no se compran.</p><div class="ex"><s>Compré la lluvia.</s> → <b>Vi la lluvia.</b></div></div>
+    <div class="card"><h3>Instrumentos y lugares</h3><p>Instrumentos por verbo y casos de lugar por cada verbo de movimiento.</p><div class="ex"><s>Asistimos del norte.</s> → <b>Asistimos a la reunión.</b></div></div>
+    <div class="card"><h3>Adjetivos</h3><p>Se corrigieron las clases de 101 adjetivos y los femeninos de mejor y peor.</p><div class="ex"><s>el lugar gordo</s> · <s>el área mejora</s></div></div>
+    <div class="card"><h3>Compañía, causa y beneficiario</h3><p>"con", "por" y "para" solo con verbos donde suenan naturales.</p><div class="ex"><s>Participo con los pollos.</s> → <b>Camino con el perro.</b></div></div>
+    <div class="card"><h3>Una sola traducción</h3><p>Salen 5 verbos cuya forma coincidía con un nombre.</p><div class="ex">"Jupaxa ujsiwa." era "Ella es ayudante" y también "Ella transita".</div></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Formato</div>
+  <h2>Cómo se ve un par</h2>
+  <p>El formato es el mismo del 100k. El <strong>modo B</strong> usa los sufijos reales del aymara; el <strong>modo A</strong> los inventa y sirve de control.</p>
+  <div class="pair">
+    <div class="pair-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="t">tener · 1.ª persona plural · afirmativa</span></div>
+    <div class="row"><div class="k">Modo B</div><div class="v">Nänakaxa kimsa chilkanithwa.</div></div>
+    <div class="row"><div class="k">Glosa</div><div class="v"><div class="gloss">
+      <span><b>nänaka-xa</b><i>nosotros-TOP</i></span>
+      <span><b>kimsa</b><i>tres</i></span>
+      <span><b>chilka-ni-tha-wa</b><i>hogar-tener-1-AFF</i></span>
+    </div></div></div>
+    <div class="row"><div class="k">Modo A</div><div class="v">Müsuluxu musqi chilkaphuphyi.</div></div>
+    <div class="row"><div class="k">Español</div><div class="v">Nosotros tenemos tres hogares.</div></div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Archivo</th><th>Contenido</th><th>Tamaño</th></tr></thead>
+      <tbody>
+        <tr><td><code>chulupi_modo_B.tsv</code></td><td>Modo B → español (<code>src</code>, <code>tgt</code>, <code>id</code>)</td><td class="n">24,9 MB</td></tr>
+        <tr><td><code>chulupi_modo_A.tsv</code></td><td>Modo A → español</td><td class="n">25,2 MB</td></tr>
+        <tr><td><code>chulupi_dataset_300k.jsonl.gz</code></td><td>Formato completo: idea, segmentación y reglas usadas</td><td class="n">26,6 MB</td></tr>
+        <tr><td><code>informe.md</code></td><td>Verificaciones, distribuciones y cobertura</td><td class="n">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="muted" style="margin-top:12px">Carpeta: <code>data/synthetic/v1.1.2_300k/</code>. El ejemplo es del 100k: mismas raíces y misma gramática.</p>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Comparación</div>
+  <h2>100k frente a 300k</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th></th><th>100k · dev/mazen</th><th>300k · dev/Camilo</th></tr></thead>
+      <tbody>
+        <tr><td>Pares</td><td class="n">100.523</td><td class="n">301.787</td></tr>
+        <tr><td>Oraciones con problemas (muestra manual)</td><td class="n">35 %</td><td class="n better">≈11 %</td></tr>
+        <tr><td>Conjugaciones con error</td><td class="n">18 verbos</td><td class="n better">0</td></tr>
+        <tr><td>Entradas del léxico en uso</td><td class="n">2.793</td><td class="n">2.213</td></tr>
+        <tr><td>Pares con reglas deducidas (tope 50 %)</td><td class="n">50,1 %</td><td class="n better">49,5 %</td></tr>
+        <tr><td>Duplicados descartados</td><td class="n">10.041</td><td class="n">58.799</td></tr>
+        <tr><td>Raíces</td><td colspan="2">Las mismas (léxico 1.0, filtro "corpus")</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Control de calidad</div>
+  <h2>Cómo se verifica</h2>
+  <p>Igual que el 100k: 128 pruebas antes de generar, y las 31 verificaciones de la sección 13 sobre cada uno de los 360.586 pares. El notebook no guarda nada si aparece un solo error. Generar y verificar todo tomó 37 minutos.</p>
+  <ul class="checks">
+    <li><div class="what">Pruebas antes de generar<small>102 formas atestiguadas, 40 casos de la especificación y 4 pruebas de realismo.</small></div><span class="tag green">128 / 128</span></li>
+    <li><div class="what">Ortografía, sufijos, orden y modo A<small>V01–V18.</small></div><span class="tag green">Bien</span></li>
+    <li><div class="what">Coherencia de la idea y del español<small>V19–V25, ahora con la regla R23.</small></div><span class="tag green">Bien</span></li>
+    <li><div class="what">Una sola traducción por oración<small>V26: falló en un primer intento por 2 oraciones; se corrigió.</small></div><span class="tag green">Bien</span></li>
+    <li><div class="what">Duplicados<small>V27: se descartaron 58.799 ideas repetidas.</small></div><span class="tag yellow">58.799 fuera</span></li>
+    <li><div class="what">Reparto frente a los pesos<small>V28: "ser", "estar" y "tener" salen algo por debajo de su peso (sus frases cortas se repiten).</small></div><span class="tag yellow">Aviso</span></li>
+    <li><div class="what">Cobertura del léxico<small>V29: 15 nombres de tiempo (lunes, marzo…) aparecen entre 7 y 13 veces, no 20.</small></div><span class="tag yellow">Aviso</span></li>
+    <li><div class="what">Reglas deducidas, no atestiguadas<small>V30: 49,5 % de los pares, dentro del tope del 50 %.</small></div><span class="tag green">Bien</span></li>
+  </ul>
+</section>
+
+<section class="reveal">
+  <div class="eyebrow">Siguientes pasos</div>
+  <h2>Qué viene</h2>
+  <ol class="steps">
+    <li>Revisión del léxico, de <code>realismo.yaml</code> y de una muestra de oraciones por alguien del equipo, idealmente con un hablante.</li>
+    <li>Fijar las particiones train/dev/test antes de entrenar.</li>
+    <li>Preentrenar con Chulupi (modo B, y modo A como control) y ajustar con el corpus real de aymara.</li>
+  </ol>
+</section>
+
+<footer>
+  Repositorio <code>Danilepez/Synthetic_Dataset</code> · rama <code>dev/Camilo</code> · generado con <code>notebooks/chulupi_generador.ipynb</code> · comparación con <code>v1.1.2_100k</code> (commit <code>b78640f</code>).
+</footer>
+
+</main>
+<script>
+  (function () {
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    els.forEach(function (e) { io.observe(e); });
+  })();
+</script>
+</body>
+</html>

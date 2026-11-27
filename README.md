@@ -4,6 +4,22 @@ Repositorio de investigación para evaluar si el entrenamiento previo con una le
 
 ---
 
+## Rama `dev/Camilo`: dataset de 301.787 pares con capa de realismo
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Danilepez/Synthetic_Dataset/blob/dev/Camilo/notebooks/chulupi_generador.ipynb)
+
+Une el trabajo de `dev/daniel` y `dev/mazen` y usa el mismo generador v1.1.2, con estos cambios:
+
+- **Capa de realismo R23** (`data/lexicon/realismo.yaml`): cada verbo solo acepta los objetos, instrumentos, lugares y complementos que tienen sentido con él ("Digo la verdad", no "Digo la libertad"; "Vi la lluvia", no "Compré la lluvia"). No cambia ninguna raíz.
+- **Léxico revisado** (`src/chulupi/revision_lexico.py`) y **conjugaciones corregidas** (21 filas en 18 verbos; todas quedan `revisado = s`).
+- Concordancia de "nosotros", 5 verbos ambiguos fuera (V26) y tope de reglas [DERIVADA] (49,5 %).
+- **Dataset:** `data/synthetic/v1.1.2_300k/` (ver su `README.md`). Las oraciones con problemas bajaron del 35 % al ≈11 % en muestras revisadas a mano.
+- **Página de avances:** `docs/avances/300k.html` (y `docs/avances/index.html` para el 100k). Se abren con doble clic.
+
+Lo que sigue en este README describe el generador v1.1.2 tal como lo dejó `dev/mazen`. En `dev/Camilo` el notebook ya apunta a esta rama (`RAMA_GITHUB = "dev/Camilo"`) y genera 360.000 ideas (unos 300.000 pares tras quitar duplicados; 37 minutos en local).
+
+---
+
 ## Generador v1.1.2 (rama `dev/mazen`)
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Danilepez/Synthetic_Dataset/blob/dev/mazen/notebooks/chulupi_generador.ipynb)

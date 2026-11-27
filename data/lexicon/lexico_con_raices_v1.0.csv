@@ -2009,10 +2009,10 @@ L12007,V_INTR,-,-,levantarse,,,,-,-,sarulka,3,13,n,-,-,persona,-,-,-,-,marco I_P
 L12008,V_INTR,-,-,brindar,,,,-,-,lila,2,14,n,-,-,persona,-,-,-,-,marco I_P
 L12009,V_INTR,-,-,renunciar,,,,-,-,juniq'a,3,15,n,-,-,persona,-,-,-,-,marco I_P
 L12010,V_INTR,-,-,votar,,,,-,-,lakiqa,3,16,n,-,-,persona,-,-,-,-,marco I_P
-L12011,V_INTR,-,-,romperse,,,,-,-,aqsulja,3,17,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo
+L12011,V_INTR,-,-,romperse,,,,-,-,aqsulja,3,17,n,-,-,objeto|herramienta|recipiente|ropa,-,-,-,-,marco I_COSA; reflexivo
 L12012,V_INTR,-,-,nacer,,,,-,-,inlla,2,18,n,-,-,persona|animal,-,-,-,-,marco I_PA
 L12013,V_INTR,-,-,cantar,,,,-,-,mulya,2,19,n,-,-,persona,-,-,-,-,marco I_P
-L12014,V_INTR,-,-,sonar,,,,-,-,ch'ika,2,20,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA
+L12014,V_INTR,-,-,sonar,,,,-,-,ch'ika,2,20,n,-,-,objeto,-,-,-,-,marco I_COSA
 L12015,V_INTR,-,-,recuperarse,,,,-,-,llatha,2,21,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12016,V_INTR,-,-,colaborar,,,,-,-,nusa,2,22,n,-,-,persona,-,-,-,-,marco I_P
 L12017,V_INTR,-,-,despertarse,,,,-,-,yamisa,3,23,n,-,-,persona|animal,-,-,-,-,marco I_PA; reflexivo
@@ -2042,16 +2042,16 @@ L12040,V_INTR,-,-,charlar,,,,-,-,pijya,2,46,n,-,-,persona,-,-,-,-,marco I_P
 L12041,V_INTR,-,-,quejarse,,,,-,-,phira,2,47,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12042,V_INTR,-,-,vestirse,,,,-,-,mixa,2,48,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12043,V_INTR,-,-,asustarse,,,,-,-,lijuya,3,49,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
-L12044,V_INTR,-,-,brillar,,,,-,-,llirurk'a,3,50,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA
+L12044,V_INTR,-,-,brillar,,,,-,-,llirurk'a,3,50,n,-,-,objeto|herramienta|recipiente|ropa,-,-,-,-,marco I_COSA
 L12045,V_INTR,-,-,callar,,,,-,-,sarlla,2,51,n,-,-,persona,-,-,-,-,marco I_P
 L12046,V_INTR,-,-,callarse,,,,-,-,uyapa,3,52,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12047,V_INTR,-,-,cooperar,,,,-,-,siyalma,3,53,n,-,-,persona,-,-,-,-,marco I_P
 L12048,V_INTR,-,-,esconderse,,,,-,-,kunkisna,3,54,n,-,-,persona|animal,-,-,-,-,marco I_PA; reflexivo
 L12049,V_INTR,-,-,reír,,,,-,-,chuschuna,3,55,n,-,-,persona,-,-,-,-,marco I_P
-L12050,V_INTR,-,-,secarse,,,,-,-,jurkuja,3,56,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo
+L12050,V_INTR,-,-,secarse,,,,-,-,jurkuja,3,56,n,-,-,ropa|planta|comida,-,-,-,-,marco I_COSA; reflexivo
 L12051,V_INTR,-,-,sentarse,,,,-,-,k'uqa,2,57,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12052,V_INTR,-,-,alegrarse,,,,-,-,saqna,2,58,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
-L12053,V_INTR,-,-,arder,,,,-,-,maqla,2,59,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA
+L12053,V_INTR,-,-,arder,,,,-,-,maqla,2,59,n,-,-,objeto|planta|ropa,-,-,-,-,marco I_COSA
 L12054,V_INTR,-,-,casarse,,,,-,-,suxwa,2,60,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12055,V_INTR,-,-,cenar,,,,-,-,sikha,2,61,n,-,-,persona,-,-,-,-,marco I_P
 L12056,V_INTR,-,-,florecer,,,,-,-,ñilla,2,62,n,-,-,planta,-,-,-,-,marco I_PL
@@ -2059,13 +2059,13 @@ L12057,V_INTR,-,-,rezar,,,,-,-,sujapa,3,63,n,-,-,persona,-,-,-,-,marco I_P
 L12058,V_INTR,-,-,almorzar,,,,-,-,qhullachsa,3,64,n,-,-,persona,-,-,-,-,marco I_P
 L12059,V_INTR,-,-,bañarse,,,,-,-,chunta,2,65,n,-,-,persona|animal,-,-,-,-,marco I_PA; reflexivo
 L12060,V_INTR,-,-,cacarear,,,,-,-,luxra,2,66,n,-,-,animal,-,-,-,-,marco I_A
-L12061,V_INTR,-,-,derretirse,,,,-,-,wichya,2,67,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo
+L12061,V_INTR,-,-,derretirse,,,,-,-,wichya,2,67,n,-,-,comida|objeto,-,-,-,-,marco I_COSA; reflexivo
 L12062,V_INTR,-,-,dialogar,,,,-,-,q'ipukma,3,68,n,-,-,persona,-,-,-,-,marco I_P
 L12063,V_INTR,-,-,emocionarse,,,,-,-,yuwqhuja,3,69,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12064,V_INTR,-,-,enojarse,,,,-,-,t'unwapt'a,3,70,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12065,V_INTR,-,-,fracasar,,,,-,-,lluchijra,3,71,n,-,-,persona,-,-,-,-,marco I_P
 L12066,V_INTR,-,-,graduarse,,,,-,-,sija,2,72,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
-L12067,V_INTR,-,-,hervir,,,,-,-,tacha,2,73,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA
+L12067,V_INTR,-,-,hervir,,,,-,-,tacha,2,73,n,-,-,bebida|comida|recipiente,-,-,-,-,marco I_COSA
 L12068,V_INTR,-,-,ladrar,,,,-,-,wich'a,2,74,n,-,-,animal,-,-,-,-,marco I_A
 L12069,V_INTR,-,-,peinarse,,,,-,-,t'ut'a,2,75,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12070,V_INTR,-,-,sonreír,,,,-,-,chalka,2,76,n,-,-,persona,-,-,-,-,marco I_P
@@ -2078,8 +2078,8 @@ L12076,V_INTR,-,-,enamorarse,,,,-,-,mat'a,2,82,n,-,-,persona,-,-,-,-,marco I_P; 
 L12077,V_INTR,-,-,enfermar,,,,-,-,iqanña,3,83,n,-,-,persona|animal,-,-,-,-,marco I_PA
 L12078,V_INTR,-,-,equivocarse,,,,-,-,yulpha,2,84,n,-,-,persona,-,-,-,-,marco I_P; reflexivo
 L12079,V_INTR,-,-,madurar,,,,-,-,milcha,2,85,n,-,-,planta,-,-,-,-,marco I_PL
-L12080,V_INTR,-,-,oxidarse,,,,-,-,miqana,3,86,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo
-L12081,V_INTR,-,-,quebrarse,,,,-,-,mumalla,3,87,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo
+L12080,V_INTR,-,-,oxidarse,,,,-,-,miqana,3,86,n,-,-,herramienta|objeto|recipiente,-,-,-,-,marco I_COSA; reflexivo
+L12081,V_INTR,-,-,quebrarse,,,,-,-,mumalla,3,87,n,-,-,objeto|herramienta|recipiente,-,-,-,-,marco I_COSA; reflexivo
 L12082,V_INTR,-,-,rebuznar,,,,-,-,qimcha,2,88,n,-,-,animal,-,-,-,-,marco I_A
 L12083,V_INTR,-,-,sanar,,,,-,-,jixja,2,89,n,-,-,persona|animal,-,-,-,-,marco I_PA
 L12084,V_INTR,-,-,sudar,,,,-,-,qukpa,2,90,n,-,-,persona|animal,-,-,-,-,marco I_PA
@@ -2098,7 +2098,7 @@ L12096,V_INTR,-,-,ducharse,,,,-,-,lutiqa,3,102,n,-,-,persona,-,-,-,-,marco I_P; 
 L12097,V_INTR,-,-,engordar,,,,-,-,luchra,2,103,n,-,-,persona|animal,-,-,-,-,marco I_PA; sin frecuencia en el dataset
 L12098,V_INTR,-,-,estornudar,,,,-,-,puñaxa,3,104,n,-,-,persona|animal,-,-,-,-,marco I_PA; sin frecuencia en el dataset
 L12099,V_INTR,-,-,germinar,,,,-,-,yajlla,2,105,n,-,-,planta,-,-,-,-,marco I_PL; sin frecuencia en el dataset
-L12100,V_INTR,-,-,humear,,,,-,-,kujaya,3,106,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; sin frecuencia en el dataset
+L12100,V_INTR,-,-,humear,,,,-,-,kujaya,3,106,n,-,-,comida|bebida,-,-,-,-,marco I_COSA; sin frecuencia en el dataset
 L12101,V_INTR,-,-,jadear,,,,-,-,kaksa,2,107,n,-,-,persona|animal,-,-,-,-,marco I_PA; sin frecuencia en el dataset
 L12102,V_INTR,-,-,jubilarse,,,,-,-,q'isa,2,108,n,-,-,persona,-,-,-,-,marco I_P; reflexivo; sin frecuencia en el dataset
 L12103,V_INTR,-,-,madrugar,,,,-,-,t'uchqa,2,109,n,-,-,persona,-,-,-,-,marco I_P; sin frecuencia en el dataset
@@ -2108,7 +2108,7 @@ L12106,V_INTR,-,-,meditar,,,,-,-,yusya,2,112,n,-,-,persona,-,-,-,-,marco I_P; si
 L12107,V_INTR,-,-,mugir,,,,-,-,llapa,2,113,n,-,-,animal,-,-,-,-,marco I_A; sin frecuencia en el dataset
 L12108,V_INTR,-,-,pastar,,,,-,-,umulla,3,114,n,-,-,animal,-,-,-,-,marco I_A; sin frecuencia en el dataset
 L12109,V_INTR,-,-,piar,,,,-,-,q'uxajwa,3,115,n,-,-,animal,-,-,-,-,marco I_A; sin frecuencia en el dataset
-L12110,V_INTR,-,-,pudrirse,,,,-,-,umtunqa,3,116,n,-,-,objeto|comida|bebida|herramienta|recipiente|ropa|planta,-,-,-,-,marco I_COSA; reflexivo; sin frecuencia en el dataset
+L12110,V_INTR,-,-,pudrirse,,,,-,-,umtunqa,3,116,n,-,-,comida|planta,-,-,-,-,marco I_COSA; reflexivo; sin frecuencia en el dataset
 L12111,V_INTR,-,-,relinchar,,,,-,-,qumqa,2,117,n,-,-,animal,-,-,-,-,marco I_A; sin frecuencia en el dataset
 L12112,V_INTR,-,-,roncar,,,,-,-,lulxa,2,118,n,-,-,persona|animal,-,-,-,-,marco I_PA; sin frecuencia en el dataset
 L12113,V_INTR,-,-,rugir,,,,-,-,yuña,2,119,n,-,-,animal,-,-,-,-,marco I_A; sin frecuencia en el dataset
@@ -2207,7 +2207,7 @@ L12205,V_TR,-,-,empezar,,,,-,-,chikila,3,22,n,n,n,persona,abstracto,-,-,-,marco 
 L12206,V_TR,-,-,desarrollar,,,,-,-,lajsa,2,23,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12207,V_TR,-,-,conocer,,,,-,-,yakra,2,24,n,s,n,persona,lugar|vivienda,-,-,-,marco T_VISITAR
 L12208,V_TR,-,-,ayudar,,,,-,-,ajuta,3,25,n,s,n,persona,animal,-,-,-,marco T_PERS
-L12209,V_TR,-,-,crear,,,,-,-,chhutiña,3,26,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12209,V_TR,-,-,crear,,,,-,-,chhutiña,3,26,n,n,s,persona,objeto|herramienta|recipiente|ropa,herramienta,-,-,marco T_HACER
 L12210,V_TR,-,-,poner,,,,-,-,saslla,2,27,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12211,V_TR,-,-,reconocer,,,,-,-,sunsa,2,28,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|vivienda|lugar,-,-,-,marco T_VER
 L12212,V_TR,-,-,permitir,,,,-,-,chisa,2,29,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
@@ -2237,7 +2237,7 @@ L12235,V_TR,-,-,lanzar,,,,-,-,llimsa,2,52,n,n,s,persona,comida|bebida|ropa|herra
 L12236,V_TR,-,-,exigir,,,,-,-,tapaja,3,53,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12237,V_TR,-,-,recordar,,,,-,-,ninya,2,54,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12238,V_TR,-,-,escuchar,,,,-,-,mikchha,2,55,n,s,n,persona|animal,abstracto|animal|objeto,-,-,-,marco T_OIR
-L12239,V_TR,-,-,construir,,,,-,-,naxta,2,56,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12239,V_TR,-,-,construir,,,,-,-,naxta,2,56,n,n,s,persona,vivienda|objeto,herramienta,-,-,marco T_HACER
 L12240,V_TR,-,-,reunir,,,,-,-,qijqa,2,57,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12241,V_TR,-,-,comer,,,,-,-,chikla,2,58,n,n,n,persona|animal,comida,herramienta,-,-,marco T_COMER
 L12242,V_TR,-,-,defender,,,,-,-,malpa,2,59,n,s,s,persona,animal|planta|vivienda|objeto,-,-,-,marco T_CUIDAR
@@ -2265,7 +2265,7 @@ L12263,V_TR,-,-,mirar,,,,-,-,susya,2,80,n,s,n,persona|animal,animal|comida|bebid
 L12264,V_TR,-,-,aceptar,,,,-,-,t'ucha,2,81,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12265,V_TR,-,-,comprar,,,,-,-,nija,2,82,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12266,V_TR,-,-,discutir,,,,-,-,thiqusa,3,83,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
-L12267,V_TR,-,-,elaborar,,,,-,-,qaxiña,3,84,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12267,V_TR,-,-,elaborar,,,,-,-,qaxiña,3,84,n,n,s,persona,comida|objeto|ropa,herramienta,-,-,marco T_HACER
 L12268,V_TR,-,-,firmar,,,,-,-,takha,2,85,n,n,s,persona,objeto|abstracto,herramienta,-,-,marco T_DOC
 L12269,V_TR,-,-,preparar,,,,-,-,iwxaka,3,86,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
 L12270,V_TR,-,-,registrar,,,,-,-,irsa,2,87,n,n,s,persona,objeto|abstracto,herramienta,-,-,marco T_DOC
@@ -2285,7 +2285,7 @@ L12283,V_TR,-,-,cerrar,,,,-,-,lisa,2,100,n,n,s,persona,recipiente|objeto|viviend
 L12284,V_TR,-,-,cocinar,,,,-,-,ipma,2,101,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
 L12285,V_TR,-,-,guardar,,,,-,-,q'uwa,2,102,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12286,V_TR,-,-,olvidar,,,,-,-,phuphuta,3,103,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
-L12287,V_TR,-,-,ordenar,,,,-,-,saxa,2,104,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12287,V_TR,-,-,ordenar,,,,-,-,saxa,2,104,n,n,s,persona,objeto|ropa|herramienta|recipiente|vivienda,herramienta,-,-,marco T_HACER
 L12288,V_TR,-,-,probar,,,,-,-,karla,2,105,n,n,n,persona|animal,comida|bebida,-,-,-,marco T_PROBAR
 L12289,V_TR,-,-,despertar,,,,-,-,jallanta,3,106,n,s,n,persona,animal,-,-,-,marco T_PERS
 L12290,V_TR,-,-,hallar,,,,-,-,yumapja,3,107,n,s,s,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|vivienda|lugar,-,-,-,marco T_BUSCAR
@@ -2298,9 +2298,9 @@ L12296,V_TR,-,-,empujar,,,,-,-,uluya,3,113,n,s,s,persona,comida|bebida|ropa|herr
 L12297,V_TR,-,-,amar,,,,-,-,k'uwa,2,114,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|abstracto|vivienda,-,-,-,marco T_QUERER
 L12298,V_TR,-,-,arrojar,,,,-,-,sawawa,3,115,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12299,V_TR,-,-,beber,,,,-,-,uwula,3,116,n,n,n,persona|animal,bebida,recipiente,-,-,marco T_BEBER
-L12300,V_TR,-,-,conectar,,,,-,-,tajika,3,117,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12300,V_TR,-,-,conectar,,,,-,-,tajika,3,117,n,n,s,persona,objeto|herramienta,herramienta,-,-,marco T_HACER
 L12301,V_TR,-,-,cuidar,,,,-,-,kisya,2,118,n,s,s,persona,animal|planta|vivienda|objeto,-,-,-,marco T_CUIDAR
-L12302,V_TR,-,-,diseñar,,,,-,-,llachha,2,119,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12302,V_TR,-,-,diseñar,,,,-,-,llachha,2,119,n,n,s,persona,objeto|ropa|vivienda|herramienta,herramienta,-,-,marco T_HACER
 L12303,V_TR,-,-,escalar,,,,-,-,qima,2,120,n,n,n,persona|animal,lugar|vivienda,-,-,-,marco T_LUGAR
 L12304,V_TR,-,-,llenar,,,,-,-,p'iwuja,3,121,n,n,s,persona,recipiente,-,-,-,marco T_LLENAR
 L12305,V_TR,-,-,acompañar,,,,-,-,qhallara,3,122,n,s,n,persona,animal,-,-,-,marco T_PERS
@@ -2310,7 +2310,7 @@ L12308,V_TR,-,-,encender,,,,-,-,nisa,2,125,n,n,n,persona,objeto|planta|comida,-,
 L12309,V_TR,-,-,mover,,,,-,-,ipchara,3,126,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12310,V_TR,-,-,prohibir,,,,-,-,wakha,2,127,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12311,V_TR,-,-,separar,,,,-,-,tikicha,3,128,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
-L12312,V_TR,-,-,colocar,,,,-,-,luksa,2,129,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12312,V_TR,-,-,colocar,,,,-,-,luksa,2,129,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12313,V_TR,-,-,cortar,,,,-,-,lalart'a,3,130,n,n,s,persona,comida|planta|ropa|objeto,herramienta,-,-,marco T_CORTAR
 L12314,V_TR,-,-,criar,,,,-,-,p'aya,2,131,n,s,s,persona,animal|planta|vivienda|objeto,-,-,-,marco T_CUIDAR
 L12315,V_TR,-,-,escoger,,,,-,-,layniya,3,132,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
@@ -2330,8 +2330,8 @@ L12328,V_TR,-,-,transportar,,,,-,-,kaqta,2,145,n,s,s,persona,comida|bebida|ropa|
 L12329,V_TR,-,-,cazar,,,,-,-,malkha,2,146,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL
 L12330,V_TR,-,-,componer,,,,-,-,phuxala,3,147,n,n,s,persona,objeto|herramienta|ropa|vivienda|recipiente,herramienta,-,-,marco T_ARREGLAR
 L12331,V_TR,-,-,cultivar,,,,-,-,llatnala,3,148,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO
-L12332,V_TR,-,-,descargar,,,,-,-,achima,3,149,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
-L12333,V_TR,-,-,instalar,,,,-,-,q'urcha,2,150,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12332,V_TR,-,-,descargar,,,,-,-,achima,3,149,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12333,V_TR,-,-,instalar,,,,-,-,q'urcha,2,150,n,n,s,persona,objeto|herramienta,herramienta,-,-,marco T_HACER
 L12334,V_TR,-,-,oír,,,,-,-,wamlla,2,151,n,s,n,persona|animal,abstracto|animal|objeto,-,-,-,marco T_OIR
 L12335,V_TR,-,-,sumar,,,,-,-,ijaqa,3,152,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12336,V_TR,-,-,calcular,,,,-,-,alcha,2,153,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
@@ -2344,12 +2344,12 @@ L12342,V_TR,-,-,habitar,,,,-,-,much'ikna,3,159,n,n,n,persona|animal,lugar|vivien
 L12343,V_TR,-,-,lavar,,,,-,-,kurcha,2,160,n,n,s,persona,ropa|recipiente|objeto|comida|herramienta,-,-,-,marco T_LAVAR
 L12344,V_TR,-,-,medir,,,,-,-,wura,2,161,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12345,V_TR,-,-,repetir,,,,-,-,kisxa,2,162,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
-L12346,V_TR,-,-,acumular,,,,-,-,ninqa,2,163,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12346,V_TR,-,-,acumular,,,,-,-,ninqa,2,163,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12347,V_TR,-,-,arrastrar,,,,-,-,chhata,2,164,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12348,V_TR,-,-,calentar,,,,-,-,wuch'a,2,165,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
-L12349,V_TR,-,-,doblar,,,,-,-,wapima,3,166,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
+L12349,V_TR,-,-,doblar,,,,-,-,wapima,3,166,n,n,s,persona,ropa|objeto,-,-,-,marco T_MANIP
 L12350,V_TR,-,-,intercambiar,,,,-,-,nanicha,3,167,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
-L12351,V_TR,-,-,moler,,,,-,-,nakumla,3,168,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12351,V_TR,-,-,moler,,,,-,-,nakumla,3,168,n,n,s,persona,comida|planta,herramienta|recipiente,-,-,marco T_COCINAR
 L12352,V_TR,-,-,odiar,,,,-,-,kuyaqa,3,169,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|abstracto|vivienda,-,-,-,marco T_QUERER
 L12353,V_TR,-,-,oler,,,,-,-,tamña,2,170,n,n,n,persona|animal,comida|bebida|planta|objeto,-,-,-,marco T_OLER
 L12354,V_TR,-,-,reparar,,,,-,-,ayiqa,3,171,n,n,s,persona,objeto|herramienta|ropa|vivienda|recipiente,herramienta,-,-,marco T_ARREGLAR
@@ -2358,7 +2358,7 @@ L12356,V_TR,-,-,sembrar,,,,-,-,tutilch'a,3,173,n,n,s,persona,planta|comida,herra
 L12357,V_TR,-,-,tejer,,,,-,-,qarta,2,174,n,n,s,persona,ropa|objeto,herramienta,-,-,marco T_TEJER
 L12358,V_TR,-,-,vigilar,,,,-,-,muchkha,2,175,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|vivienda|lugar,-,-,-,marco T_VER
 L12359,V_TR,-,-,esconder,,,,-,-,lisna,2,176,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
-L12360,V_TR,-,-,fabricar,,,,-,-,lliqlla,2,177,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12360,V_TR,-,-,fabricar,,,,-,-,lliqlla,2,177,n,n,s,persona,objeto|herramienta|recipiente|ropa,herramienta,-,-,marco T_HACER
 L12361,V_TR,-,-,limpiar,,,,-,-,pichalla,3,178,n,n,s,persona,vivienda|objeto|ropa|recipiente|herramienta,herramienta,-,-,marco T_LIMPIAR
 L12362,V_TR,-,-,meter,,,,-,-,talla,2,179,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12363,V_TR,-,-,pescar,,,,-,-,k'irk'a,2,180,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL
@@ -2369,7 +2369,7 @@ L12367,V_TR,-,-,abonar,,,,-,-,milika,3,184,n,n,s,persona,planta|comida,herramien
 L12368,V_TR,-,-,amarrar,,,,-,-,llayapqa,3,185,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12369,V_TR,-,-,anotar,,,,-,-,ilna,2,186,n,n,s,persona,objeto|abstracto,herramienta,-,-,marco T_DOC
 L12370,V_TR,-,-,apagar,,,,-,-,yaqasa,3,187,n,n,n,persona,objeto|planta|comida,-,-,-,marco T_QUEMAR
-L12371,V_TR,-,-,asar,,,,-,-,iqha,2,188,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12371,V_TR,-,-,asar,,,,-,-,iqha,2,188,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR
 L12372,V_TR,-,-,atar,,,,-,-,yuqma,2,189,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12373,V_TR,-,-,cavar,,,,-,-,phiya,2,190,n,n,s,persona,lugar,herramienta,-,-,marco T_TIERRA
 L12374,V_TR,-,-,copiar,,,,-,-,ikakqa,3,191,n,n,s,persona,objeto|abstracto,herramienta,-,-,marco T_DOC
@@ -2379,16 +2379,16 @@ L12377,V_TR,-,-,extrañar,,,,-,-,tip'iklla,3,194,n,s,n,persona|animal,animal|com
 L12378,V_TR,-,-,jalar,,,,-,-,sachluka,3,195,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12379,V_TR,-,-,masticar,,,,-,-,warp'a,2,196,n,n,n,persona|animal,comida,herramienta,-,-,marco T_COMER
 L12380,V_TR,-,-,morder,,,,-,-,muqucha,3,197,n,n,n,persona|animal,comida,herramienta,-,-,marco T_COMER
-L12381,V_TR,-,-,pelar,,,,-,-,asup'a,3,198,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12381,V_TR,-,-,pelar,,,,-,-,asup'a,3,198,n,n,s,persona,comida|planta,herramienta|recipiente,-,-,marco T_COCINAR
 L12382,V_TR,-,-,abrazar,,,,-,-,ijlla,2,199,n,s,n,persona,animal,-,-,-,marco T_PERS
 L12383,V_TR,-,-,admirar,,,,-,-,iwla,2,200,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|vivienda|lugar,-,-,-,marco T_VER
-L12384,V_TR,-,-,almacenar,,,,-,-,kulquna,3,201,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
-L12385,V_TR,-,-,amasar,,,,-,-,q'unarwa,3,202,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12384,V_TR,-,-,almacenar,,,,-,-,kulquna,3,201,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12385,V_TR,-,-,amasar,,,,-,-,q'unarwa,3,202,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR
 L12386,V_TR,-,-,arreglar,,,,-,-,yamakha,3,203,n,n,s,persona,objeto|herramienta|ropa|vivienda|recipiente,herramienta,-,-,marco T_ARREGLAR
 L12387,V_TR,-,-,bañar,,,,-,-,mujya,2,204,n,s,s,persona,animal|planta|vivienda|objeto,-,-,-,marco T_CUIDAR
 L12388,V_TR,-,-,borrar,,,,-,-,lluwuqra,3,205,n,n,s,persona,objeto|abstracto,herramienta,-,-,marco T_DOC
 L12389,V_TR,-,-,cosechar,,,,-,-,wurta,2,206,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO
-L12390,V_TR,-,-,decorar,,,,-,-,ñaychha,2,207,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12390,V_TR,-,-,decorar,,,,-,-,ñaychha,2,207,n,n,s,persona,vivienda|objeto|recipiente|ropa|comida,herramienta,-,-,marco T_HACER
 L12391,V_TR,-,-,domar,,,,-,-,lamsa,2,208,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL
 L12392,V_TR,-,-,enjuagar,,,,-,-,mima,2,209,n,n,s,persona,ropa|recipiente|objeto|comida|herramienta,-,-,-,marco T_LAVAR
 L12393,V_TR,-,-,fotografiar,,,,-,-,kallusa,3,210,n,s,n,persona|animal,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto|vivienda|lugar,-,-,-,marco T_VER
@@ -2396,57 +2396,57 @@ L12394,V_TR,-,-,imprimir,,,,-,-,pachha,2,211,n,n,s,persona,objeto|abstracto,herr
 L12395,V_TR,-,-,juntar,,,,-,-,nuraka,3,212,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12396,V_TR,-,-,pesar,,,,-,-,jixima,3,213,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
 L12397,V_TR,-,-,picar,,,,-,-,aqupma,3,214,n,n,s,persona,comida|planta|ropa|objeto,herramienta,-,-,marco T_CORTAR
-L12398,V_TR,-,-,rellenar,,,,-,-,arta,2,215,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12398,V_TR,-,-,rellenar,,,,-,-,arta,2,215,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR
 L12399,V_TR,-,-,restar,,,,-,-,lijchha,2,216,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
-L12400,V_TR,-,-,tostar,,,,-,-,mithaka,3,217,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12400,V_TR,-,-,tostar,,,,-,-,mithaka,3,217,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR
 L12401,V_TR,-,-,tragar,,,,-,-,iwiqha,3,218,n,n,n,persona|animal,comida|bebida,-,-,-,marco T_PROBAR
-L12402,V_TR,-,-,acomodar,,,,-,-,samxa,2,219,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
-L12403,V_TR,-,-,adornar,,,,-,-,mila,2,220,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12402,V_TR,-,-,acomodar,,,,-,-,samxa,2,219,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12403,V_TR,-,-,adornar,,,,-,-,mila,2,220,n,n,s,persona,vivienda|objeto|recipiente|ropa|comida,herramienta,-,-,marco T_HACER
 L12404,V_TR,-,-,alquilar,,,,-,-,llachawja,3,221,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12405,V_TR,-,-,barrer,,,,-,-,anilsa,3,222,n,n,s,persona,vivienda|objeto|ropa|recipiente|herramienta,herramienta,-,-,marco T_LIMPIAR
 L12406,V_TR,-,-,batir,,,,-,-,asña,2,223,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
 L12407,V_TR,-,-,cocer,,,,-,-,qimusa,3,224,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
-L12408,V_TR,-,-,empacar,,,,-,-,tasmuxa,3,225,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
+L12408,V_TR,-,-,empacar,,,,-,-,tasmuxa,3,225,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|objeto,-,-,-,marco T_COMPRA
 L12409,V_TR,-,-,enfriar,,,,-,-,ach'a,2,226,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
 L12410,V_TR,-,-,esquilar,,,,-,-,pila,2,227,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL
 L12411,V_TR,-,-,heredar,,,,-,-,kikya,2,228,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA
 L12412,V_TR,-,-,hilar,,,,-,-,apulla,3,229,n,n,s,persona,ropa|objeto,herramienta,-,-,marco T_TEJER
-L12413,V_TR,-,-,modelar,,,,-,-,namquya,3,230,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12413,V_TR,-,-,modelar,,,,-,-,namquya,3,230,n,n,s,persona,objeto|recipiente,herramienta,-,-,marco T_HACER
 L12414,V_TR,-,-,multiplicar,,,,-,-,achaswa,3,231,n,n,n,persona,abstracto,-,-,-,marco T_ABSTR
 L12415,V_TR,-,-,pastear,,,,-,-,llupha,2,232,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL
 L12416,V_TR,-,-,picotear,,,,-,-,takimta,3,233,n,n,n,persona|animal,comida,herramienta,-,-,marco T_COMER
-L12417,V_TR,-,-,pintar,,,,-,-,pika,2,234,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12417,V_TR,-,-,pintar,,,,-,-,pika,2,234,n,n,s,persona,objeto|vivienda|recipiente,herramienta,-,-,marco T_HACER
 L12418,V_TR,-,-,planchar,,,,-,-,ch'ich'a,2,235,n,n,s,persona,ropa|recipiente|objeto|comida|herramienta,-,-,-,marco T_LAVAR
 L12419,V_TR,-,-,plantar,,,,-,-,mujsa,2,236,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO
 L12420,V_TR,-,-,quebrar,,,,-,-,qhusra,2,237,n,n,n,persona|animal,objeto|herramienta|recipiente|ropa,herramienta,-,-,marco T_ROMPER
 L12421,V_TR,-,-,regar,,,,-,-,muqja,2,238,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO
 L12422,V_TR,-,-,saborear,,,,-,-,takñakta,3,239,n,n,n,persona|animal,comida|bebida,-,-,-,marco T_PROBAR
-L12423,V_TR,-,-,sazonar,,,,-,-,jallach'a,3,240,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR
+L12423,V_TR,-,-,sazonar,,,,-,-,jallach'a,3,240,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR
 L12424,V_TR,-,-,soltar,,,,-,-,tukaqa,3,241,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP
-L12425,V_TR,-,-,tallar,,,,-,-,yakaxka,3,242,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER
+L12425,V_TR,-,-,tallar,,,,-,-,yakaxka,3,242,n,n,s,persona,objeto|herramienta|recipiente,herramienta,-,-,marco T_HACER
 L12426,V_TR,-,-,trillar,,,,-,-,qatsa,2,243,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO
 L12427,V_TR,-,-,vaciar,,,,-,-,sachapya,3,244,n,n,s,persona,recipiente,-,-,-,marco T_LLENAR
 L12428,V_TR,-,-,arar,,,,-,-,muxpa,2,245,n,n,s,persona,lugar,herramienta,-,-,marco T_TIERRA; sin frecuencia en el dataset
 L12429,V_TR,-,-,bordar,,,,-,-,quchja,2,246,n,n,s,persona,ropa|objeto,herramienta,-,-,marco T_TEJER; sin frecuencia en el dataset
 L12430,V_TR,-,-,coser,,,,-,-,thira,2,247,n,n,s,persona,ropa|objeto,herramienta,-,-,marco T_TEJER; sin frecuencia en el dataset
 L12431,V_TR,-,-,curar,,,,-,-,niquka,3,248,n,s,s,persona,animal|planta|vivienda|objeto,-,-,-,marco T_CUIDAR; sin frecuencia en el dataset
-L12432,V_TR,-,-,desempacar,,,,-,-,wuruma,3,249,n,n,s,persona,animal|comida|bebida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_COMPRA; sin frecuencia en el dataset
+L12432,V_TR,-,-,desempacar,,,,-,-,wuruma,3,249,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|objeto,-,-,-,marco T_COMPRA; sin frecuencia en el dataset
 L12433,V_TR,-,-,desgranar,,,,-,-,anirta,3,250,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO; sin frecuencia en el dataset
 L12434,V_TR,-,-,devorar,,,,-,-,ip'a,2,251,n,n,n,persona|animal,comida,herramienta,-,-,marco T_COMER; sin frecuencia en el dataset
-L12435,V_TR,-,-,dibujar,,,,-,-,kiqaya,3,252,n,n,s,persona,objeto|herramienta|recipiente|ropa|vivienda|comida,herramienta,-,-,marco T_HACER; sin frecuencia en el dataset
+L12435,V_TR,-,-,dibujar,,,,-,-,kiqaya,3,252,n,n,s,persona,objeto|animal|planta|vivienda|lugar,herramienta,-,-,marco T_HACER; sin frecuencia en el dataset
 L12436,V_TR,-,-,endulzar,,,,-,-,yulla,2,253,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
 L12437,V_TR,-,-,ensillar,,,,-,-,nipukha,3,254,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL; sin frecuencia en el dataset
-L12438,V_TR,-,-,envolver,,,,-,-,nuna,2,255,n,n,s,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco T_MANIP; sin frecuencia en el dataset
-L12439,V_TR,-,-,freír,,,,-,-,qhusa,2,256,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
+L12438,V_TR,-,-,envolver,,,,-,-,nuna,2,255,n,n,s,persona,comida|ropa|herramienta|recipiente|planta|objeto,-,-,-,marco T_MANIP; sin frecuencia en el dataset
+L12439,V_TR,-,-,freír,,,,-,-,qhusa,2,256,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
 L12440,V_TR,-,-,fumigar,,,,-,-,qanuqa,3,257,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO; sin frecuencia en el dataset
-L12441,V_TR,-,-,guisar,,,,-,-,t'umat'a,3,258,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
+L12441,V_TR,-,-,guisar,,,,-,-,t'umat'a,3,258,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
 L12442,V_TR,-,-,herrar,,,,-,-,ñara,2,259,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL; sin frecuencia en el dataset
-L12443,V_TR,-,-,hornear,,,,-,-,lachina,3,260,n,n,s,persona,comida|bebida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
+L12443,V_TR,-,-,hornear,,,,-,-,lachina,3,260,n,n,s,persona,comida,herramienta|recipiente,-,-,marco T_COCINAR; sin frecuencia en el dataset
 L12444,V_TR,-,-,ordeñar,,,,-,-,lluphanla,3,261,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL; sin frecuencia en el dataset
 L12445,V_TR,-,-,podar,,,,-,-,k'inja,2,262,n,n,s,persona,planta|comida,herramienta,-,-,marco T_AGRO; sin frecuencia en el dataset
 L12446,V_TR,-,-,rajar,,,,-,-,isqa,2,263,n,n,s,persona,comida|planta|ropa|objeto,herramienta,-,-,marco T_CORTAR; sin frecuencia en el dataset
 L12447,V_TR,-,-,rasgar,,,,-,-,lichquwa,3,264,n,n,n,persona|animal,objeto|herramienta|recipiente|ropa,herramienta,-,-,marco T_ROMPER; sin frecuencia en el dataset
-L12448,V_TR,-,-,rebanar,,,,-,-,sulya,2,265,n,n,s,persona,comida|planta|ropa|objeto,herramienta,-,-,marco T_CORTAR; sin frecuencia en el dataset
+L12448,V_TR,-,-,rebanar,,,,-,-,sulya,2,265,n,n,s,persona,comida|planta,herramienta,-,-,marco T_CORTAR; sin frecuencia en el dataset
 L12449,V_TR,-,-,remendar,,,,-,-,uyala,3,266,n,n,s,persona,ropa|objeto,herramienta,-,-,marco T_TEJER; sin frecuencia en el dataset
 L12450,V_TR,-,-,sorber,,,,-,-,jawupa,3,267,n,n,n,persona|animal,bebida,recipiente,-,-,marco T_BEBER; sin frecuencia en el dataset
 L12451,V_TR,-,-,talar,,,,-,-,tuna,2,268,n,n,s,persona,comida|planta|ropa|objeto,herramienta,-,-,marco T_CORTAR; sin frecuencia en el dataset
@@ -2455,7 +2455,7 @@ L12453,V_TR,-,-,trozar,,,,-,-,mawinxa,3,270,n,n,s,persona,comida|planta|ropa|obj
 L12454,V_TR,-,-,vacunar,,,,-,-,lasa,2,271,n,n,s,persona,animal,herramienta,-,-,marco T_ANIMAL; sin frecuencia en el dataset
 L12455,V_DITR,-,-,decir,,,,-,-,qatup'a,3,1,s,s,n,persona,abstracto,-,-,-,marco D_ABSTR
 L12456,V_DITR,-,-,dar,,,,-,-,tupchirla,3,2,s,s,n,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal,-,-,-,marco D_COSA
-L12457,V_DITR,-,-,escribir,,,,-,-,isura,3,3,s,s,n,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal|abstracto,-,-,-,marco D_MIXTO
+L12457,V_DITR,-,-,escribir,,,,-,-,isura,3,3,s,s,n,persona,objeto|abstracto,-,-,-,marco D_MIXTO
 L12458,V_DITR,-,-,contar,,,,-,-,phajicha,3,4,s,s,n,persona,abstracto,-,-,-,marco D_ABSTR
 L12459,V_DITR,-,-,mostrar,,,,-,-,qak'a,2,5,s,s,n,persona,comida|bebida|ropa|herramienta|recipiente|planta|objeto|animal|abstracto,-,-,-,marco D_MIXTO
 L12460,V_DITR,-,-,informar,,,,-,-,t'uja,2,6,s,s,n,persona,abstracto,-,-,-,marco D_ABSTR
@@ -2493,18 +2493,18 @@ L12491,V_DITR,-,-,perdonar,,,,-,-,q'ijq'a,2,37,s,s,n,persona,abstracto,-,-,-,mar
 L12492,ADJ,otro,-,público,pública,públicos,públicas,-,-,akhaya,3,1,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12493,ADJ,otro,-,social,social,sociales,sociales,-,-,jañunki,3,2,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12494,ADJ,otro,-,primero,primera,primeros,primeras,-,-,uxthu,2,3,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12495,ADJ,otro,-,nuevo,nueva,nuevos,nuevas,-,-,q'uyuki,3,4,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos NUEVO+ESTADO
+L12495,ADJ,otro,-,nuevo,nueva,nuevos,nuevas,-,-,q'uyuki,3,4,-,-,-,-,-,-,-,ropa|herramienta|recipiente|objeto|vivienda|lugar|abstracto,femenino y plural automáticos; tipos NUEVO+ESTADO
 L12496,ADJ,otro,-,económico,económica,económicos,económicas,-,-,kulu,2,5,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12497,ADJ,otro,-,originario,originaria,originarios,originarias,-,-,chiyu,2,6,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
-L12498,ADJ,otro,-,especial,especial,especiales,especiales,-,-,qumi,2,7,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12499,ADJ,otro,-,boliviano,boliviana,bolivianos,bolivianas,-,-,tiqta,2,8,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12497,ADJ,otro,-,originario,originaria,originarios,originarias,-,-,chiyu,2,6,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR_L
+L12498,ADJ,otro,-,especial,especial,especiales,especiales,-,-,qumi,2,7,-,-,-,-,-,-,-,persona|comida|bebida|abstracto,femenino y plural automáticos; tipos VALOR
+L12499,ADJ,otro,-,boliviano,boliviana,bolivianos,bolivianas,-,-,tiqta,2,8,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
 L12500,ADJ,otro,-,natural,natural,naturales,naturales,-,-,qamapa,3,9,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12501,ADJ,tamano,-,pequeño,pequeña,pequeños,pequeñas,-,-,juchakpa,3,10,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
 L12502,ADJ,otro,-,nacional,nacional,nacionales,nacionales,-,-,yat'a,2,11,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12503,ADJ,otro,-,libre,libre,libres,libres,-,-,wallasi,3,12,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12504,ADJ,otro,-,último,última,últimos,últimas,-,-,wuqha,2,13,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12505,ADJ,otro,-,importante,importante,importantes,importantes,-,-,ullini,3,14,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12506,ADJ,otro,-,mejor,mejora,mejores,mejoras,-,-,llalujra,3,15,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
+L12505,ADJ,otro,-,importante,importante,importantes,importantes,-,-,ullini,3,14,-,-,-,-,-,-,-,persona|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
+L12506,ADJ,otro,-,mejor,mejor,mejores,mejores,-,-,llalujra,3,15,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos VALOR
 L12507,ADJ,otro,-,internacional,internacional,internacionales,internacionales,-,-,llaq'ujsa,3,16,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12508,ADJ,otro,-,siguiente,siguiente,siguientes,siguientes,-,-,wuxi,2,17,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12509,ADJ,otro,-,político,política,políticos,políticas,-,-,jiji,2,18,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
@@ -2516,16 +2516,16 @@ L12514,ADJ,otro,-,único,única,únicos,únicas,-,-,saju,2,23,-,-,-,-,-,-,-,abst
 L12515,ADJ,otro,-,productivo,productiva,productivos,productivas,-,-,chawiwu,3,24,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12516,ADJ,otro,-,oficial,oficial,oficiales,oficiales,-,-,kirchanru,3,25,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12517,ADJ,otro,-,propio,propia,propios,propias,-,-,chantata,3,26,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12518,ADJ,tamano,-,alto,alta,altos,altas,-,-,qiwicha,3,27,-,-,-,-,-,-,-,persona|animal|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM_ALT
+L12518,ADJ,tamano,-,alto,alta,altos,altas,-,-,qiwicha,3,27,-,-,-,-,-,-,-,persona|animal|planta|lugar|vivienda,femenino y plural automáticos; tipos TAM_ALT
 L12519,ADJ,otro,-,digital,digital,digitales,digitales,-,-,t'uwa,2,28,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12520,ADJ,otro,-,departamental,departamental,departamentales,departamentales,-,-,lit'i,2,29,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
-L12521,ADJ,otro,-,extranjero,extranjera,extranjeros,extranjeras,-,-,athu,2,30,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12521,ADJ,otro,-,extranjero,extranjera,extranjeros,extranjeras,-,-,athu,2,30,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
 L12522,ADJ,otro,-,principal,principal,principales,principales,-,-,muwu,2,31,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12523,ADJ,otro,-,general,general,generales,generales,-,-,tuchu,2,32,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12524,ADJ,otro,-,colectivo,colectiva,colectivos,colectivas,-,-,iti,2,33,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12525,ADJ,otro,-,necesario,necesaria,necesarios,necesarias,-,-,lachha,2,34,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12526,ADJ,otro,-,abierto,abierta,abiertos,abiertas,-,-,qicha,2,35,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12527,ADJ,otro,-,indígena,indígena,indígenas,indígenas,-,-,ikixi,3,36,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
+L12525,ADJ,otro,-,necesario,necesaria,necesarios,necesarias,-,-,lachha,2,34,-,-,-,-,-,-,-,comida|bebida|ropa|herramienta|recipiente|objeto|abstracto,femenino y plural automáticos; tipos VALOR
+L12526,ADJ,otro,-,abierto,abierta,abiertos,abiertas,-,-,qicha,2,35,-,-,-,-,-,-,-,ropa|recipiente|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12527,ADJ,otro,-,indígena,indígena,indígenas,indígenas,-,-,ikixi,3,36,-,-,-,-,-,-,-,persona|lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
 L12528,ADJ,otro,-,tradicional,tradicional,tradicionales,tradicionales,-,-,muryali,3,37,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12529,ADJ,otro,-,educativo,educativa,educativos,educativas,-,-,luku,2,38,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12530,ADJ,otro,-,fuerte,fuerte,fuertes,fuertes,-,-,luxmarlla,3,39,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
@@ -2537,168 +2537,168 @@ L12535,ADJ,otro,-,común,común,comunes,comunes,-,-,sik'u,2,44,-,-,-,-,-,-,-,per
 L12536,ADJ,otro,-,personal,personal,personales,personales,-,-,kajaxqa,3,45,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12537,ADJ,otro,-,legal,legal,legales,legales,-,-,thathaja,3,46,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12538,ADJ,otro,-,rural,rural,rurales,rurales,-,-,chasya,2,47,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12539,ADJ,tamano,-,largo,larga,largos,largas,-,-,wurkiri,3,48,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos TAM+ABSTR
+L12539,ADJ,tamano,-,largo,larga,largos,largas,-,-,wurkiri,3,48,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos TAM+ABSTR
 L12540,ADJ,otro,-,antiguo,antigua,antiguos,antiguas,-,-,k'amalri,3,49,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos EDAD
-L12541,ADJ,otro,-,mundial,mundial,mundiales,mundiales,-,-,napuka,3,50,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
+L12541,ADJ,otro,-,mundial,mundial,mundiales,mundiales,-,-,napuka,3,50,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR_L
 L12542,ADJ,otro,-,difícil,difícil,difíciles,difíciles,-,-,upchu,2,51,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12543,ADJ,otro,-,seguro,segura,seguros,seguras,-,-,k'inmu,2,52,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
 L12544,ADJ,otro,-,joven,joven,jóvenes,jóvenes,-,-,lullit'u,3,53,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos EDAD_H
 L12545,ADJ,otro,-,regional,regional,regionales,regionales,-,-,walxaxju,3,54,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
 L12546,ADJ,otro,-,urbano,urbana,urbanos,urbanas,-,-,aqma,2,55,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12547,ADJ,otro,-,gratuito,gratuita,gratuitos,gratuitas,-,-,suqi,2,56,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos PRECIO
+L12547,ADJ,otro,-,gratuito,gratuita,gratuitos,gratuitas,-,-,suqi,2,56,-,-,-,-,-,-,-,comida|bebida|objeto,femenino y plural automáticos; tipos PRECIO
 L12548,ADJ,otro,-,cercano,cercana,cercanos,cercanas,-,-,tuwu,2,57,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12549,ADJ,tamano,-,bajo,baja,bajos,bajas,-,-,tinjayu,3,58,-,-,-,-,-,-,-,persona|animal|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM_ALT
+L12549,ADJ,tamano,-,bajo,baja,bajos,bajas,-,-,tinjayu,3,58,-,-,-,-,-,-,-,persona|planta|lugar|vivienda,femenino y plural automáticos; tipos TAM_ALT
 L12550,ADJ,otro,-,familiar,familiar,familiares,familiares,-,-,pulna,2,59,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12551,ADJ,otro,-,vivo,viva,vivos,vivas,-,-,llasaspi,3,60,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12552,ADJ,otro,-,nativo,nativa,nativos,nativas,-,-,qajra,2,61,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
-L12553,ADJ,otro,-,argentino,argentina,argentinos,argentinas,-,-,chanu,2,62,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12552,ADJ,otro,-,nativo,nativa,nativos,nativas,-,-,qajra,2,61,-,-,-,-,-,-,-,persona|animal|planta,femenino y plural automáticos; tipos ORIGEN
+L12553,ADJ,otro,-,argentino,argentina,argentinos,argentinas,-,-,chanu,2,62,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
 L12554,ADJ,otro,-,famoso,famosa,famosos,famosas,-,-,tiyatu,3,63,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12555,ADJ,otro,-,viejo,vieja,viejos,viejas,-,-,uramqu,3,64,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos EDAD
-L12556,ADJ,color,-,claro,clara,claros,claras,-,-,qichasti,3,65,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12556,ADJ,color,-,claro,clara,claros,claras,-,-,qichasti,3,65,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12557,ADJ,otro,-,grave,grave,graves,graves,-,-,tanmarsi,3,66,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12558,ADJ,otro,-,rápido,rápida,rápidos,rápidas,-,-,chhuwa,2,67,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12559,ADJ,otro,-,pacífico,pacífica,pacíficos,pacíficas,-,-,yiqwu,2,68,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12560,ADJ,otro,-,sencillo,sencilla,sencillos,sencillas,-,-,yikawi,3,69,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12561,ADJ,otro,-,fácil,fácil,fáciles,fáciles,-,-,qataxqa,3,70,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12562,ADJ,otro,-,herido,herida,heridos,heridas,-,-,chhura,2,71,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12563,ADJ,otro,-,lleno,llena,llenos,llenas,-,-,lurilla,3,72,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos ESTADO+LLENO
-L12564,ADJ,otro,-,duro,dura,duros,duras,-,-,tujsa,2,73,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12565,ADJ,tamano,-,corto,corta,cortos,cortas,-,-,imllu,2,74,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos TAM+ABSTR
+L12563,ADJ,otro,-,lleno,llena,llenos,llenas,-,-,lurilla,3,72,-,-,-,-,-,-,-,recipiente|vivienda|lugar,femenino y plural automáticos; tipos ESTADO+LLENO
+L12564,ADJ,otro,-,duro,dura,duros,duras,-,-,tujsa,2,73,-,-,-,-,-,-,-,comida|herramienta,femenino y plural automáticos; tipos ESTADO
+L12565,ADJ,tamano,-,corto,corta,cortos,cortas,-,-,imllu,2,74,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos TAM+ABSTR
 L12566,ADJ,otro,-,justo,justa,justos,justas,-,-,khani,2,75,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12567,ADJ,otro,-,pobre,pobre,pobres,pobres,-,-,mutna,2,76,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12568,ADJ,otro,-,responsable,responsable,responsables,responsables,-,-,mayina,3,77,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12569,ADJ,otro,-,chileno,chilena,chilenos,chilenas,-,-,k'uyu,2,78,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12569,ADJ,otro,-,chileno,chilena,chilenos,chilenas,-,-,k'uyu,2,78,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
 L12570,ADJ,otro,-,ilegal,ilegal,ilegales,ilegales,-,-,paqhapi,3,79,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12571,ADJ,otro,-,usado,usada,usados,usadas,-,-,punpi,2,80,-,-,-,-,-,-,-,ropa|herramienta|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos NUEVO
+L12571,ADJ,otro,-,usado,usada,usados,usadas,-,-,punpi,2,80,-,-,-,-,-,-,-,ropa|herramienta|recipiente|vivienda|objeto,femenino y plural automáticos; tipos NUEVO
 L12572,ADJ,otro,-,verdadero,verdadera,verdaderos,verdaderas,-,-,imara,3,81,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12573,ADJ,otro,-,violento,violenta,violentos,violentas,-,-,sarlawu,3,82,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12574,ADJ,otro,-,moderno,moderna,modernos,modernas,-,-,kapyayu,3,83,-,-,-,-,-,-,-,ropa|herramienta|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos NUEVO
-L12575,ADJ,color,-,negro,negra,negros,negras,-,-,maphu,2,84,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12575,ADJ,color,-,negro,negra,negros,negras,-,-,maphu,2,84,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12576,ADJ,otro,-,breve,breve,breves,breves,-,-,llallulu,3,85,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12577,ADJ,otro,-,normal,normal,normales,normales,-,-,thisaru,3,86,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12578,ADJ,color,-,blanco,blanca,blancos,blancas,-,-,ikusa,3,87,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12577,ADJ,otro,-,normal,normal,normales,normales,-,-,thisaru,3,86,-,-,-,-,-,-,-,persona|animal|abstracto|objeto,femenino y plural automáticos; tipos VALOR
+L12578,ADJ,color,-,blanco,blanca,blancos,blancas,-,-,ikusa,3,87,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12579,ADJ,otro,-,bueno,buena,buenos,buenas,-,-,llixu,2,88,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
 L12580,ADJ,otro,-,peligroso,peligrosa,peligrosos,peligrosas,-,-,qukyu,2,89,-,-,-,-,-,-,-,persona|animal|lugar|vivienda,femenino y plural automáticos; tipos HUM_A+LUGAR
-L12581,ADJ,otro,-,profundo,profunda,profundos,profundas,-,-,chujupi,3,90,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12582,ADJ,color,-,verde,verde,verdes,verdes,-,-,titura,3,91,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR+COMIDA
+L12581,ADJ,otro,-,profundo,profunda,profundos,profundas,-,-,chujupi,3,90,-,-,-,-,-,-,-,lugar|recipiente,femenino y plural automáticos; tipos LUGAR
+L12582,ADJ,color,-,verde,verde,verdes,verdes,-,-,titura,3,91,-,-,-,-,-,-,-,comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR+COMIDA
 L12583,ADJ,otro,-,democrático,democrática,democráticos,democráticas,-,-,tuqhu,2,92,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12584,ADJ,otro,-,seco,seca,secos,secas,-,-,lluqchha,2,93,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12584,ADJ,otro,-,seco,seca,secos,secas,-,-,lluqchha,2,93,-,-,-,-,-,-,-,comida|ropa|planta|objeto|lugar,femenino y plural automáticos; tipos ESTADO
 L12585,ADJ,otro,-,triste,triste,tristes,tristes,-,-,tatali,3,94,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12586,ADJ,otro,-,malo,mala,malos,malas,-,-,pamina,3,95,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
 L12587,ADJ,otro,-,muerto,muerta,muertos,muertas,-,-,lipwuq'u,3,96,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12588,ADJ,color,-,oscuro,oscura,oscuros,oscuras,-,-,siyali,3,97,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos COLOR+LUGAR
-L12589,ADJ,otro,-,peruano,peruana,peruanos,peruanas,-,-,chillusu,3,98,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
-L12590,ADJ,otro,-,brasileño,brasileña,brasileños,brasileñas,-,-,miji,2,99,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12588,ADJ,color,-,oscuro,oscura,oscuros,oscuras,-,-,siyali,3,97,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos COLOR+LUGAR
+L12589,ADJ,otro,-,peruano,peruana,peruanos,peruanas,-,-,chillusu,3,98,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
+L12590,ADJ,otro,-,brasileño,brasileña,brasileños,brasileñas,-,-,miji,2,99,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
 L12591,ADJ,otro,-,falso,falsa,falsos,falsas,-,-,thayu,2,100,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12592,ADJ,otro,-,mexicano,mexicana,mexicanos,mexicanas,-,-,jachaku,3,101,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
-L12593,ADJ,otro,-,peor,peora,peores,peoras,-,-,wimpa,2,102,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
+L12592,ADJ,otro,-,mexicano,mexicana,mexicanos,mexicanas,-,-,jachaku,3,101,-,-,-,-,-,-,-,persona|comida|bebida|ropa,femenino y plural automáticos; tipos ORIGEN
+L12593,ADJ,otro,-,peor,peor,peores,peores,-,-,wimpa,2,102,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos VALOR
 L12594,ADJ,otro,-,salvaje,salvaje,salvajes,salvajes,-,-,lixpi,2,103,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12595,ADJ,otro,-,doméstico,doméstica,domésticos,domésticas,-,-,llijikha,3,104,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12596,ADJ,tamano,-,enorme,enorme,enormes,enormes,-,-,allupka,3,105,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
 L12597,ADJ,otro,-,feliz,feliz,felices,felices,-,-,chujutwu,3,106,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12598,ADJ,otro,-,caliente,caliente,calientes,calientes,-,-,wiwu,2,107,-,-,-,-,-,-,-,comida|bebida|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos TEMP
-L12599,ADJ,color,-,rojo,roja,rojos,rojas,-,-,tachu,2,108,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12599,ADJ,color,-,rojo,roja,rojos,rojas,-,-,tachu,2,108,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12600,ADJ,otro,-,rico,rica,ricos,ricas,-,-,jasuju,3,109,-,-,-,-,-,-,-,persona|comida|bebida|planta,femenino y plural automáticos; tipos HUM+SABOR
 L12601,ADJ,otro,-,serio,seria,serios,serias,-,-,llaxja,2,110,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12602,ADJ,otro,-,solidario,solidaria,solidarios,solidarias,-,-,luxinta,3,111,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12603,ADJ,otro,-,tropical,tropical,tropicales,tropicales,-,-,nisruli,3,112,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
+L12603,ADJ,otro,-,tropical,tropical,tropicales,tropicales,-,-,nisruli,3,112,-,-,-,-,-,-,-,lugar,femenino y plural automáticos; tipos LUGAR
 L12604,ADJ,otro,-,ancestral,ancestral,ancestrales,ancestrales,-,-,khixtanpa,3,113,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12605,ADJ,otro,-,aymara,aymara,aymaras,aymaras,-,-,sillaji,3,114,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
+L12605,ADJ,otro,-,aymara,aymara,aymaras,aymaras,-,-,sillaji,3,114,-,-,-,-,-,-,-,persona|ropa|comida,femenino y plural automáticos; tipos ORIGEN
 L12606,ADJ,otro,-,hermoso,hermosa,hermosos,hermosas,-,-,ixchhamu,3,115,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12607,ADJ,otro,-,cerrado,cerrada,cerrados,cerradas,-,-,yijxaslla,3,116,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12607,ADJ,otro,-,cerrado,cerrada,cerrados,cerradas,-,-,yijxaslla,3,116,-,-,-,-,-,-,-,ropa|recipiente|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
 L12608,ADJ,otro,-,cocido,cocida,cocidos,cocidas,-,-,yarti,2,117,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
-L12609,ADJ,otro,-,entero,entera,enteros,enteras,-,-,ninchhusñu,3,118,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12609,ADJ,otro,-,entero,entera,enteros,enteras,-,-,ninchhusñu,3,118,-,-,-,-,-,-,-,comida|recipiente,femenino y plural automáticos; tipos ESTADO
 L12610,ADJ,otro,-,húmedo,húmeda,húmedos,húmedas,-,-,chamamtha,3,119,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
 L12611,ADJ,otro,-,inteligente,inteligente,inteligentes,inteligentes,-,-,kayi,2,120,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12612,ADJ,otro,-,limpio,limpia,limpios,limpias,-,-,thiyu,2,121,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos ESTADO+LUGAR
+L12612,ADJ,otro,-,limpio,limpia,limpios,limpias,-,-,thiyu,2,121,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|vivienda|lugar|objeto|bebida,femenino y plural automáticos; tipos ESTADO+LUGAR
 L12613,ADJ,tamano,-,mediano,mediana,medianos,medianas,-,-,kasnu,2,122,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
-L12614,ADJ,otro,-,perdido,perdida,perdidos,perdidas,-,-,jiju,2,123,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12614,ADJ,otro,-,perdido,perdida,perdidos,perdidas,-,-,jiju,2,123,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|objeto,femenino y plural automáticos; tipos ESTADO
 L12615,ADJ,otro,-,raro,rara,raros,raras,-,-,jatuja,3,124,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
 L12616,ADJ,otro,-,sano,sana,sanos,sanas,-,-,thañi,2,125,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12617,ADJ,otro,-,andino,andina,andinos,andinas,-,-,akalra,3,126,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|lugar|vivienda|objeto,femenino y plural automáticos; tipos LUGAR+ORIGEN
+L12617,ADJ,otro,-,andino,andina,andinos,andinas,-,-,akalra,3,126,-,-,-,-,-,-,-,persona|animal|comida|ropa|lugar|planta,femenino y plural automáticos; tipos LUGAR+ORIGEN
 L12618,ADJ,otro,-,crudo,cruda,crudos,crudas,-,-,utkata,3,127,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
 L12619,ADJ,otro,-,cálido,cálida,cálidos,cálidas,-,-,yamsa,2,128,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
 L12620,ADJ,otro,-,frío,fría,fríos,frías,-,-,yaqcharlla,3,129,-,-,-,-,-,-,-,comida|bebida|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos TEMP
 L12621,ADJ,otro,-,orgulloso,orgullosa,orgullosos,orgullosas,-,-,nukinwi,3,130,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12622,ADJ,otro,-,pesado,pesada,pesados,pesadas,-,-,qañut'a,3,131,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12622,ADJ,otro,-,pesado,pesada,pesados,pesadas,-,-,qañut'a,3,131,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|objeto|comida,femenino y plural automáticos; tipos ESTADO
 L12623,ADJ,otro,-,plurinacional,plurinacional,plurinacionales,plurinacionales,-,-,lluki,2,132,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L
-L12624,ADJ,otro,-,útil,útil,útiles,útiles,-,-,nuxu,2,133,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12625,ADJ,tamano,-,ancho,ancha,anchos,anchas,-,-,sulcha,2,134,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
+L12624,ADJ,otro,-,útil,útil,útiles,útiles,-,-,nuxu,2,133,-,-,-,-,-,-,-,herramienta|recipiente|objeto|ropa|abstracto,femenino y plural automáticos; tipos VALOR
+L12625,ADJ,tamano,-,ancho,ancha,anchos,anchas,-,-,sulcha,2,134,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
 L12626,ADJ,otro,-,complicado,complicada,complicados,complicadas,-,-,pisli,2,135,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
-L12627,ADJ,tamano,-,delgado,delgada,delgados,delgadas,-,-,suk'usru,3,136,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
+L12627,ADJ,tamano,-,delgado,delgada,delgados,delgadas,-,-,suk'usru,3,136,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|planta|objeto,femenino y plural automáticos; tipos TAM
 L12628,ADJ,otro,-,preocupado,preocupada,preocupados,preocupadas,-,-,waxña,2,137,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12629,ADJ,otro,-,caro,cara,caros,caras,-,-,t'iyi,2,138,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos PRECIO
 L12630,ADJ,otro,-,contento,contenta,contentos,contentas,-,-,iwkap'a,3,139,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12631,ADJ,otro,-,injusto,injusta,injustos,injustas,-,-,kiwi,2,140,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12632,ADJ,otro,-,lento,lenta,lentos,lentas,-,-,llarnu,2,141,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12633,ADJ,otro,-,suave,suave,suaves,suaves,-,-,liriqri,3,142,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12633,ADJ,otro,-,suave,suave,suaves,suaves,-,-,liriqri,3,142,-,-,-,-,-,-,-,animal|ropa|objeto|comida|bebida,femenino y plural automáticos; tipos ESTADO
 L12634,ADJ,otro,-,tranquilo,tranquila,tranquilos,tranquilas,-,-,aqhura,3,143,-,-,-,-,-,-,-,persona|lugar|vivienda,femenino y plural automáticos; tipos HUM+LUGAR
-L12635,ADJ,otro,-,vacío,vacía,vacíos,vacías,-,-,ulki,2,144,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos ESTADO+LLENO
+L12635,ADJ,otro,-,vacío,vacía,vacíos,vacías,-,-,ulki,2,144,-,-,-,-,-,-,-,recipiente|vivienda|lugar,femenino y plural automáticos; tipos ESTADO+LLENO
 L12636,ADJ,otro,-,bonito,bonita,bonitos,bonitas,-,-,khalatu,3,145,-,-,-,-,-,-,-,persona|animal|lugar|vivienda,femenino y plural automáticos; tipos HUM_A+LUGAR
-L12637,ADJ,otro,-,brillante,brillante,brillantes,brillantes,-,-,pumnuqi,3,146,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12637,ADJ,otro,-,brillante,brillante,brillantes,brillantes,-,-,pumnuqi,3,146,-,-,-,-,-,-,-,objeto|herramienta|recipiente|ropa,femenino y plural automáticos; tipos ESTADO
 L12638,ADJ,otro,-,dulce,dulce,dulces,dulces,-,-,kuyi,2,147,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
-L12639,ADJ,tamano,-,estrecho,estrecha,estrechos,estrechas,-,-,ithisa,3,148,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
-L12640,ADJ,color,-,gris,gris,grises,grises,-,-,lamllu,2,149,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12639,ADJ,tamano,-,estrecho,estrecha,estrechos,estrechas,-,-,ithisa,3,148,-,-,-,-,-,-,-,ropa|herramienta|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
+L12640,ADJ,color,-,gris,gris,grises,grises,-,-,lamllu,2,149,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12641,ADJ,otro,-,imposible,imposible,imposibles,imposibles,-,-,mikasu,3,150,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12642,ADJ,otro,-,lindo,linda,lindos,lindas,-,-,jirña,2,151,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12643,ADJ,otro,-,ocupado,ocupada,ocupados,ocupadas,-,-,lluchikma,3,152,-,-,-,-,-,-,-,persona|recipiente|lugar|vivienda,femenino y plural automáticos; tipos HUM+LLENO
+L12643,ADJ,otro,-,ocupado,ocupada,ocupados,ocupadas,-,-,lluchikma,3,152,-,-,-,-,-,-,-,persona|lugar|vivienda,femenino y plural automáticos; tipos HUM+LLENO
 L12644,ADJ,otro,-,perfecto,perfecta,perfectos,perfectas,-,-,saqina,3,153,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
-L12645,ADJ,otro,-,transparente,transparente,transparentes,transparentes,-,-,ichik'u,3,154,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12645,ADJ,otro,-,transparente,transparente,transparentes,transparentes,-,-,ichik'u,3,154,-,-,-,-,-,-,-,recipiente|objeto|bebida|ropa,femenino y plural automáticos; tipos ESTADO
 L12646,ADJ,otro,-,alegre,alegre,alegres,alegres,-,-,thusu,2,155,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12647,ADJ,otro,-,cansado,cansada,cansados,cansadas,-,-,aknaya,3,156,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12648,ADJ,otro,-,casado,casada,casados,casadas,-,-,k'uyk'i,2,157,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12649,ADJ,color,-,dorado,dorada,dorados,doradas,-,-,jalukna,3,158,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12649,ADJ,color,-,dorado,dorada,dorados,doradas,-,-,jalukna,3,158,-,-,-,-,-,-,-,objeto|recipiente|herramienta|ropa|comida,femenino y plural automáticos; tipos COLOR
 L12650,ADJ,otro,-,extraño,extraña,extraños,extrañas,-,-,tikruchlla,3,159,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
 L12651,ADJ,otro,-,fresco,fresca,frescos,frescas,-,-,yupxu,2,160,-,-,-,-,-,-,-,comida|bebida|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TEMP+COMIDA
-L12652,ADJ,otro,-,mojado,mojada,mojados,mojadas,-,-,qiñu,2,161,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12652,ADJ,otro,-,mojado,mojada,mojados,mojadas,-,-,qiñu,2,161,-,-,-,-,-,-,-,animal|ropa|planta|objeto|persona,femenino y plural automáticos; tipos ESTADO
 L12653,ADJ,otro,-,nervioso,nerviosa,nerviosos,nerviosas,-,-,suqupu,3,162,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12654,ADJ,otro,-,perezoso,perezosa,perezosos,perezosas,-,-,manp'uchqu,3,163,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12655,ADJ,otro,-,quemado,quemada,quemados,quemadas,-,-,nat'asi,3,164,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12655,ADJ,otro,-,quemado,quemada,quemados,quemadas,-,-,nat'asi,3,164,-,-,-,-,-,-,-,comida|objeto|ropa|vivienda|planta,femenino y plural automáticos; tipos ESTADO
 L12656,ADJ,otro,-,sabio,sabia,sabios,sabias,-,-,lalupi,3,165,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12657,ADJ,otro,-,salado,salada,salados,saladas,-,-,lanja,2,166,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
-L12658,ADJ,otro,-,sucio,sucia,sucios,sucias,-,-,chixi,2,167,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12658,ADJ,otro,-,sucio,sucia,sucios,sucias,-,-,chixi,2,167,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|vivienda|lugar|objeto|bebida,femenino y plural automáticos; tipos ESTADO
 L12659,ADJ,otro,-,urgente,urgente,urgentes,urgentes,-,-,suchja,2,168,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR
 L12660,ADJ,otro,-,valioso,valiosa,valiosos,valiosas,-,-,lamxa,2,169,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos PRECIO
-L12661,ADJ,color,-,azul,azul,azules,azules,-,-,ispi,2,170,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12661,ADJ,color,-,azul,azul,azules,azules,-,-,ispi,2,170,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12662,ADJ,otro,-,delicioso,deliciosa,deliciosos,deliciosas,-,-,luluxya,3,171,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
 L12663,ADJ,otro,-,débil,débil,débiles,débiles,-,-,chuwu,2,172,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12664,ADJ,otro,-,educado,educada,educados,educadas,-,-,lalu,2,173,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12665,ADJ,otro,-,enojado,enojada,enojados,enojadas,-,-,kakurqa,3,174,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12666,ADJ,tamano,-,fino,fina,finos,finas,-,-,tiyila,3,175,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
-L12667,ADJ,tamano,-,grueso,gruesa,gruesos,gruesas,-,-,phili,2,176,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
+L12666,ADJ,tamano,-,fino,fina,finos,finas,-,-,tiyila,3,175,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TAM
+L12667,ADJ,tamano,-,grueso,gruesa,gruesos,gruesas,-,-,phili,2,176,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|objeto|animal,femenino y plural automáticos; tipos TAM
 L12668,ADJ,otro,-,humilde,humilde,humildes,humildes,-,-,juyi,2,177,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12669,ADJ,otro,-,sabroso,sabrosa,sabrosos,sabrosas,-,-,sarusya,3,178,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
 L12670,ADJ,otro,-,tierno,tierna,tiernos,tiernas,-,-,yikyamllu,3,179,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
 L12671,ADJ,otro,-,aburrido,aburrida,aburridos,aburridas,-,-,kanwarna,3,180,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12672,ADJ,otro,-,afilado,afilada,afilados,afiladas,-,-,ikmu,2,181,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12673,ADJ,color,-,amarillo,amarilla,amarillos,amarillas,-,-,k'iji,2,182,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12672,ADJ,otro,-,afilado,afilada,afilados,afiladas,-,-,ikmu,2,181,-,-,-,-,-,-,-,herramienta|objeto,femenino y plural automáticos; tipos ESTADO
+L12673,ADJ,color,-,amarillo,amarilla,amarillos,amarillas,-,-,k'iji,2,182,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12674,ADJ,otro,-,asustado,asustada,asustados,asustadas,-,-,kaq'a,2,183,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12675,ADJ,otro,-,cuadrado,cuadrada,cuadrados,cuadradas,-,-,lanji,2,184,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12675,ADJ,otro,-,cuadrado,cuadrada,cuadrados,cuadradas,-,-,lanji,2,184,-,-,-,-,-,-,-,objeto|recipiente|comida,femenino y plural automáticos; tipos ESTADO
 L12676,ADJ,otro,-,enfermo,enferma,enfermos,enfermas,-,-,kukicha,3,185,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12677,ADJ,otro,-,fiel,fiel,fieles,fieles,-,-,mapxi,2,186,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12678,ADJ,otro,-,generoso,generosa,generosos,generosas,-,-,p'alayu,3,187,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12679,ADJ,otro,-,inútil,inútil,inútiles,inútiles,-,-,qanlasi,3,188,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|abstracto|objeto,femenino y plural automáticos; tipos VALOR
+L12679,ADJ,otro,-,inútil,inútil,inútiles,inútiles,-,-,qanlasi,3,188,-,-,-,-,-,-,-,herramienta|recipiente|objeto|ropa|abstracto,femenino y plural automáticos; tipos VALOR
 L12680,ADJ,otro,-,lejano,lejana,lejanos,lejanas,-,-,up'acha,3,189,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12681,ADJ,otro,-,ligero,ligera,ligeros,ligeras,-,-,q'apki,2,190,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12682,ADJ,color,-,marrón,marrón,marrones,marrones,-,-,kallupmu,3,191,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
+L12681,ADJ,otro,-,ligero,ligera,ligeros,ligeras,-,-,q'apki,2,190,-,-,-,-,-,-,-,ropa|herramienta|recipiente|objeto|comida,femenino y plural automáticos; tipos ESTADO
+L12682,ADJ,color,-,marrón,marrón,marrones,marrones,-,-,kallupmu,3,191,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
 L12683,ADJ,otro,-,mentiroso,mentirosa,mentirosos,mentirosas,-,-,murayu,3,192,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12684,ADJ,otro,-,montañoso,montañosa,montañosos,montañosas,-,-,tuyumya,3,193,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12685,ADJ,otro,-,plano,plana,planos,planas,-,-,k'ik'a,2,194,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos ESTADO+LUGAR
-L12686,ADJ,otro,-,redondo,redonda,redondos,redondas,-,-,chhimu,2,195,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12687,ADJ,otro,-,roto,rota,rotos,rotas,-,-,qhanu,2,196,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12684,ADJ,otro,-,montañoso,montañosa,montañosos,montañosas,-,-,tuyumya,3,193,-,-,-,-,-,-,-,lugar,femenino y plural automáticos; tipos LUGAR
+L12685,ADJ,otro,-,plano,plana,planos,planas,-,-,k'ik'a,2,194,-,-,-,-,-,-,-,objeto|lugar|herramienta,femenino y plural automáticos; tipos ESTADO+LUGAR
+L12686,ADJ,otro,-,redondo,redonda,redondos,redondas,-,-,chhimu,2,195,-,-,-,-,-,-,-,objeto|recipiente|comida,femenino y plural automáticos; tipos ESTADO
+L12687,ADJ,otro,-,roto,rota,rotos,rotas,-,-,qhanu,2,196,-,-,-,-,-,-,-,objeto|herramienta|recipiente|ropa|vivienda,femenino y plural automáticos; tipos ESTADO
 L12688,ADJ,otro,-,valiente,valiente,valientes,valientes,-,-,kunu,2,197,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12689,ADJ,otro,-,ágil,ágil,ágiles,ágiles,-,-,usija,3,198,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12690,ADJ,otro,-,áspero,áspera,ásperos,ásperas,-,-,kusmisqi,3,199,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12690,ADJ,otro,-,áspero,áspera,ásperos,ásperas,-,-,kusmisqi,3,199,-,-,-,-,-,-,-,ropa|objeto|herramienta,femenino y plural automáticos; tipos ESTADO
 L12691,ADJ,otro,-,amargo,amarga,amargos,amargas,-,-,ixki,2,200,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
 L12692,ADJ,otro,-,barato,barata,baratos,baratas,-,-,sixu,2,201,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos PRECIO
 L12693,ADJ,otro,-,celoso,celosa,celosos,celosas,-,-,sikiwa,3,202,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12694,ADJ,otro,-,ciego,ciega,ciegos,ciegas,-,-,luluqmi,3,203,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12695,ADJ,tamano,-,diminuto,diminuta,diminutos,diminutas,-,-,qhaljalra,3,204,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
 L12696,ADJ,otro,-,feo,fea,feos,feas,-,-,tuschuk'u,3,205,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12697,ADJ,tamano,-,gordo,gorda,gordos,gordas,-,-,k'inu,2,206,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM
+L12697,ADJ,tamano,-,gordo,gorda,gordos,gordas,-,-,k'inu,2,206,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos TAM
 L12698,ADJ,otro,-,helado,helada,helados,heladas,-,-,tunakha,3,207,-,-,-,-,-,-,-,comida|bebida|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos TEMP
 L12699,ADJ,otro,-,honesto,honesta,honestos,honestas,-,-,qijti,2,208,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12700,ADJ,otro,-,liso,lisa,lisos,lisas,-,-,llit'i,2,209,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT
+L12700,ADJ,otro,-,liso,lisa,lisos,lisas,-,-,llit'i,2,209,-,-,-,-,-,-,-,ropa|objeto|herramienta|recipiente,femenino y plural automáticos; tipos TEXT
 L12701,ADJ,otro,-,maduro,madura,maduros,maduras,-,-,paqi,2,210,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
 L12702,ADJ,otro,-,picante,picante,picantes,picantes,-,-,p'uwp'a,2,211,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
 L12703,ADJ,otro,-,podrido,podrida,podridos,podridas,-,-,qaqtu,2,212,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
@@ -2706,62 +2706,62 @@ L12704,ADJ,otro,-,respetuoso,respetuosa,respetuosos,respetuosas,-,-,ch'aja,2,213
 L12705,ADJ,otro,-,ruidoso,ruidosa,ruidosos,ruidosas,-,-,kulara,3,214,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
 L12706,ADJ,otro,-,sordo,sorda,sordos,sordas,-,-,k'ataqk'u,3,215,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
 L12707,ADJ,otro,-,sorprendido,sorprendida,sorprendidos,sorprendidas,-,-,jipatru,3,216,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12708,ADJ,otro,-,tejido,tejida,tejidos,tejidas,-,-,luk'i,2,217,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT
-L12709,ADJ,otro,-,torcido,torcida,torcidos,torcidas,-,-,jit'a,2,218,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12708,ADJ,otro,-,tejido,tejida,tejidos,tejidas,-,-,luk'i,2,217,-,-,-,-,-,-,-,ropa|objeto,femenino y plural automáticos; tipos TEXT
+L12709,ADJ,otro,-,torcido,torcida,torcidos,torcidas,-,-,jit'a,2,218,-,-,-,-,-,-,-,objeto|herramienta|planta,femenino y plural automáticos; tipos ESTADO
 L12710,ADJ,otro,-,tímido,tímida,tímidos,tímidas,-,-,juqixlla,3,219,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
-L12711,ADJ,otro,-,ácido,ácida,ácidos,ácidas,-,-,sumatyi,3,220,-,-,-,-,-,-,-,comida|bebida|planta,femenino y plural automáticos; tipos SABOR
-L12712,ADJ,otro,-,blando,blanda,blandos,blandas,-,-,mukyi,2,221,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12711,ADJ,otro,-,ácido,ácida,ácidos,ácidas,-,-,sumatyi,3,220,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos SABOR
+L12712,ADJ,otro,-,blando,blanda,blandos,blandas,-,-,mukyi,2,221,-,-,-,-,-,-,-,comida|objeto,femenino y plural automáticos; tipos ESTADO
 L12713,ADJ,otro,-,cariñoso,cariñosa,cariñosos,cariñosas,-,-,suqputi,3,222,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12714,ADJ,otro,-,cobarde,cobarde,cobardes,cobardes,-,-,pirji,2,223,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12715,ADJ,otro,-,céntrico,céntrica,céntricos,céntricas,-,-,qiwa,2,224,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
 L12716,ADJ,otro,-,desierto,desierta,desiertos,desiertas,-,-,asñixa,3,225,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12717,ADJ,otro,-,desocupado,desocupada,desocupados,desocupadas,-,-,ch'axlli,2,226,-,-,-,-,-,-,-,recipiente|lugar|vivienda,femenino y plural automáticos; tipos LLENO
+L12717,ADJ,otro,-,desocupado,desocupada,desocupados,desocupadas,-,-,ch'axlli,2,226,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LLENO
 L12718,ADJ,otro,-,despierto,despierta,despiertos,despiertas,-,-,chutxi,2,227,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12719,ADJ,otro,-,escondido,escondida,escondidos,escondidas,-,-,mutali,3,228,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12719,ADJ,otro,-,escondido,escondida,escondidos,escondidas,-,-,mutali,3,228,-,-,-,-,-,-,-,animal|objeto|herramienta|recipiente|comida|lugar|vivienda,femenino y plural automáticos; tipos ESTADO
 L12720,ADJ,otro,-,estudioso,estudiosa,estudiosos,estudiosas,-,-,suka,2,229,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12721,ADJ,otro,-,grosero,grosera,groseros,groseras,-,-,chaxna,2,230,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12722,ADJ,otro,-,jugoso,jugosa,jugosos,jugosas,-,-,saphamu,3,231,-,-,-,-,-,-,-,comida|planta,femenino y plural automáticos; tipos COMIDA
 L12723,ADJ,otro,-,juguetón,juguetona,juguetones,juguetonas,-,-,kutu,2,232,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A
-L12724,ADJ,otro,-,liviano,liviana,livianos,livianas,-,-,llanxuru,3,233,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
-L12725,ADJ,otro,-,nevado,nevada,nevados,nevadas,-,-,chakata,3,234,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12726,ADJ,color,-,plateado,plateada,plateados,plateadas,-,-,ip'ayki,3,235,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR
-L12727,ADJ,otro,-,poblado,poblada,poblados,pobladas,-,-,k'imlu,2,236,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR
-L12728,ADJ,otro,-,quechua,quechua,quechuas,quechuas,-,-,kamajlu,3,237,-,-,-,-,-,-,-,persona|animal|comida|bebida|ropa|objeto,femenino y plural automáticos; tipos ORIGEN
-L12729,ADJ,otro,-,recto,recta,rectos,rectas,-,-,phumphamki,3,238,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO
+L12724,ADJ,otro,-,liviano,liviana,livianos,livianas,-,-,llanxuru,3,233,-,-,-,-,-,-,-,ropa|herramienta|recipiente|objeto,femenino y plural automáticos; tipos ESTADO
+L12725,ADJ,otro,-,nevado,nevada,nevados,nevadas,-,-,chakata,3,234,-,-,-,-,-,-,-,lugar,femenino y plural automáticos; tipos LUGAR
+L12726,ADJ,color,-,plateado,plateada,plateados,plateadas,-,-,ip'ayki,3,235,-,-,-,-,-,-,-,objeto|recipiente|herramienta|ropa,femenino y plural automáticos; tipos COLOR
+L12727,ADJ,otro,-,poblado,poblada,poblados,pobladas,-,-,k'imlu,2,236,-,-,-,-,-,-,-,lugar,femenino y plural automáticos; tipos LUGAR
+L12728,ADJ,otro,-,quechua,quechua,quechuas,quechuas,-,-,kamajlu,3,237,-,-,-,-,-,-,-,persona|ropa|comida,femenino y plural automáticos; tipos ORIGEN
+L12729,ADJ,otro,-,recto,recta,rectos,rectas,-,-,phumphamki,3,238,-,-,-,-,-,-,-,objeto|herramienta|planta,femenino y plural automáticos; tipos ESTADO
 L12730,ADJ,otro,-,tibio,tibia,tibios,tibias,-,-,tamllacha,3,239,-,-,-,-,-,-,-,comida|bebida|recipiente|lugar|vivienda|objeto,femenino y plural automáticos; tipos TEMP
 L12731,ADJ,otro,-,trabajador,trabajadora,trabajadores,trabajadoras,-,-,tasaru,3,240,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12732,ADJ,otro,-,viudo,viuda,viudos,viudas,-,-,lapllali,3,241,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM
 L12733,ADJ,otro,-,amable,amable,amables,amables,-,-,qiña,2,242,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12734,ADJ,color,-,anaranjado,anaranjada,anaranjados,anaranjadas,-,-,ullaxa,3,243,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
+L12734,ADJ,color,-,anaranjado,anaranjada,anaranjados,anaranjadas,-,-,ullaxa,3,243,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|vivienda|objeto|comida,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
 L12735,ADJ,otro,-,antipático,antipática,antipáticos,antipáticas,-,-,uqchasi,3,244,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12736,ADJ,otro,-,bolivianista,bolivianista,bolivianistas,bolivianistas,-,-,upka,2,245,-,-,-,-,-,-,-,lugar|abstracto,femenino y plural automáticos; tipos ABSTR_L; sin frecuencia en el dataset
-L12737,ADJ,otro,-,bordado,bordada,bordados,bordadas,-,-,lamaya,3,246,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
+L12736,ADJ,otro,-,bolivianista,bolivianista,bolivianistas,bolivianistas,-,-,upka,2,245,-,-,-,-,-,-,-,abstracto,femenino y plural automáticos; tipos ABSTR_L; sin frecuencia en el dataset
+L12737,ADJ,otro,-,bordado,bordada,bordados,bordadas,-,-,lamaya,3,246,-,-,-,-,-,-,-,ropa|objeto,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
 L12738,ADJ,otro,-,bravo,brava,bravos,bravas,-,-,wusmu,2,247,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
-L12739,ADJ,color,-,café,café,cafés,cafés,-,-,mikji,2,248,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
-L12740,ADJ,color,-,celeste,celeste,celestes,celestes,-,-,mawajxa,3,249,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
+L12739,ADJ,color,-,café,café,cafés,cafés,-,-,mikji,2,248,-,-,-,-,-,-,-,animal|comida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
+L12740,ADJ,color,-,celeste,celeste,celestes,celestes,-,-,mawajxa,3,249,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
 L12741,ADJ,otro,-,cojo,coja,cojos,cojas,-,-,wuyu,2,250,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
 L12742,ADJ,otro,-,dormido,dormida,dormidos,dormidas,-,-,napasu,3,251,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
 L12743,ADJ,otro,-,embarazada,embarazada,embarazadas,embarazadas,-,-,p'uranu,3,252,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12744,ADJ,tamano,-,flaco,flaca,flacos,flacas,-,-,tuqunsu,3,253,-,-,-,-,-,-,-,persona|animal|ropa|herramienta|recipiente|planta|lugar|vivienda|objeto,femenino y plural automáticos; tipos TAM; sin frecuencia en el dataset
+L12744,ADJ,tamano,-,flaco,flaca,flacos,flacas,-,-,tuqunsu,3,253,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos TAM; sin frecuencia en el dataset
 L12745,ADJ,otro,-,gordito,gordita,gorditos,gorditas,-,-,chhuxka,2,254,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
 L12746,ADJ,otro,-,hambriento,hambrienta,hambrientos,hambrientas,-,-,miwi,2,255,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
 L12747,ADJ,otro,-,impaciente,impaciente,impacientes,impacientes,-,-,jumi,2,256,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12748,ADJ,otro,-,lanudo,lanuda,lanudos,lanudas,-,-,k'uk'urqa,3,257,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
+L12748,ADJ,otro,-,lanudo,lanuda,lanudos,lanudas,-,-,k'uk'urqa,3,257,-,-,-,-,-,-,-,animal|ropa,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
 L12749,ADJ,otro,-,manso,mansa,mansos,mansas,-,-,wawiya,3,258,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
-L12750,ADJ,color,-,morado,morada,morados,moradas,-,-,askuli,3,259,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
+L12750,ADJ,color,-,morado,morada,morados,moradas,-,-,askuli,3,259,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|vivienda|objeto|comida|bebida,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
 L12751,ADJ,otro,-,mudo,muda,mudos,mudas,-,-,wika,2,260,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
-L12752,ADJ,otro,-,opaco,opaca,opacos,opacas,-,-,k'apu,2,261,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO; sin frecuencia en el dataset
+L12752,ADJ,otro,-,opaco,opaca,opacos,opacas,-,-,k'apu,2,261,-,-,-,-,-,-,-,recipiente|objeto|ropa,femenino y plural automáticos; tipos ESTADO; sin frecuencia en el dataset
 L12753,ADJ,otro,-,paciente,paciente,pacientes,pacientes,-,-,qiwu,2,262,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12754,ADJ,otro,-,peludo,peluda,peludos,peludas,-,-,lit'achnu,3,263,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
-L12755,ADJ,otro,-,puntiagudo,puntiaguda,puntiagudos,puntiagudas,-,-,lachwiyu,3,264,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos ESTADO; sin frecuencia en el dataset
+L12754,ADJ,otro,-,peludo,peluda,peludos,peludas,-,-,lit'achnu,3,263,-,-,-,-,-,-,-,animal|ropa,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
+L12755,ADJ,otro,-,puntiagudo,puntiaguda,puntiagudos,puntiagudas,-,-,lachwiyu,3,264,-,-,-,-,-,-,-,herramienta|objeto|planta,femenino y plural automáticos; tipos ESTADO; sin frecuencia en el dataset
 L12756,ADJ,otro,-,puntual,puntual,puntuales,puntuales,-,-,kujchajta,3,265,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12757,ADJ,color,-,rosado,rosada,rosados,rosadas,-,-,ismuchi,3,266,-,-,-,-,-,-,-,animal|comida|bebida|ropa|herramienta|recipiente|planta|vivienda|objeto,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
-L12758,ADJ,otro,-,rugoso,rugosa,rugosos,rugosas,-,-,lupuqa,3,267,-,-,-,-,-,-,-,animal|ropa|herramienta|recipiente|planta|objeto,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
+L12757,ADJ,color,-,rosado,rosada,rosados,rosadas,-,-,ismuchi,3,266,-,-,-,-,-,-,-,ropa|herramienta|recipiente|planta|vivienda|objeto|comida,femenino y plural automáticos; tipos COLOR; sin frecuencia en el dataset
+L12758,ADJ,otro,-,rugoso,rugosa,rugosos,rugosas,-,-,lupuqa,3,267,-,-,-,-,-,-,-,objeto|planta|herramienta,femenino y plural automáticos; tipos TEXT; sin frecuencia en el dataset
 L12759,ADJ,otro,-,sediento,sedienta,sedientos,sedientas,-,-,kawacha,3,268,-,-,-,-,-,-,-,persona|animal,femenino y plural automáticos; tipos HUM_A; sin frecuencia en el dataset
 L12760,ADJ,otro,-,simpático,simpática,simpáticos,simpáticas,-,-,sinu,2,269,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
 L12761,ADJ,otro,-,soltero,soltera,solteros,solteras,-,-,ñisnu,2,270,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
 L12762,ADJ,otro,-,tacaño,tacaña,tacaños,tacañas,-,-,kupacha,3,271,-,-,-,-,-,-,-,persona,femenino y plural automáticos; tipos HUM; sin frecuencia en el dataset
-L12763,ADJ,otro,-,templado,templada,templados,templadas,-,-,llarwi,2,272,-,-,-,-,-,-,-,lugar|vivienda,femenino y plural automáticos; tipos LUGAR; sin frecuencia en el dataset
+L12763,ADJ,otro,-,templado,templada,templados,templadas,-,-,llarwi,2,272,-,-,-,-,-,-,-,lugar,femenino y plural automáticos; tipos LUGAR; sin frecuencia en el dataset
 L12764,ADV_T,futuro,-,después,,,,-,-,muchula,3,1,-,-,-,-,-,-,-,-,
 L12765,ADV_T,pasado_remoto,-,antes,,,,-,-,pustimchi,3,2,-,-,-,-,-,-,-,-,
 L12766,ADV_T,futuro,-,luego,,,,-,-,phinura,3,3,-,-,-,-,-,-,-,-,
